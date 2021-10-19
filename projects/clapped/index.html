@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>clapped</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/4a26b129ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+
+    <style>
+        ::selection {
+            background: #44ffb18c;
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #262626;
+            text-align: center;
+            font-family: "Roboto";
+            text-decoration: none;
+            overflow-x: hidden;
+        }
+
+        #toast {
+            visibility: hidden;
+            min-width: 200px;
+            margin-left: -125px;
+            background-color: #f42069;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 20px;
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        #title {
+            left: calc(50% - 470px);
+            position: absolute;
+            font-size: 72px;
+            font-family: "Open Sans";
+          /*background: -webkit-linear-gradient(180deg, rgba(242,18,214,1) 25%, rgba(0,241,255,1) 75%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent; */
+            color: #1d1d1d;
+            padding: 0px;
+            margin: 0px
+        }
+
+        #slash {
+            padding-bottom: 7px;
+            margin: 0px;
+            position: absolute;
+            font-size: 300px;
+            font-family: "Open Sans";
+            color: #262626;
+            user-select: none;
+            z-index: 10;
+            opacity: 100%;
+        }
+
+        #titlebar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: -webkit-linear-gradient(230deg, rgba(242,18,214,1) 10%, rgba(0,241,255,1) 90%);
+            height: 120px;
+            width: 100vw;
+            margin-top: calc(50vh - 60px);
+            margin-bottom: calc(50vh - 60px);
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        #spacer {
+            width: 100vw;
+            height: 140px
+        }
+
+        #social {
+            user-select: none;
+            left: calc(50% + 200px);
+            display: grid;
+            position: absolute;
+            grid-template-columns: 70px 70px 70px 70px 70px;
+            gap: 20% 15%;
+            margin: 0%;
+            justify-content: center;
+            z-index: 2;
+
+            animation-name: social_slide;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-delay: 1.5s;
+        }
+        
+        
+        #social a div {
+            transition: .2s;
+            height: 70px;
+        }
+        
+        #social a div img {
+            width: 45px;
+            height: 45px;
+            padding-top: 15px
+        }
+
+        #social a:hover div {
+            transform: scale(1.2);
+        }
+
+        #social a button {
+            background: transparent;
+            border: none !important;
+            outline: none;
+            cursor: pointer;
+        }
+
+        #page2 {
+            width: 100vw;
+            min-height: 100vh;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            background: #1d1d1d;
+        }
+
+        #page3 {
+            width: 100vw;
+            min-height: 100vh;
+            padding-top: 1%;
+            padding-bottom: 2%;
+        }
+        
+        h1{
+            font-size: 90px;
+        }
+
+        #sitegrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 50px;
+            align-content: center;
+            padding: 0% 10% 0% 10%;
+            padding-top: 0px;
+            overflow: hidden;
+        }
+
+        #sitegrid div {
+            transition: transform .15s;
+            border-radius: 13px;
+            background: #181818;
+        }
+
+        #sitegrid div a:link {
+            text-decoration: none !important;
+        }
+
+        #sitegrid div img {
+            width: 100%;
+            height: 100%;
+            border-radius: 13px
+        }
+
+        #subtitle {
+            background: -webkit-linear-gradient(230deg, rgba(242,18,214,1) 10%, rgba(0,241,255,1) 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #sitegrid div h3 {
+            margin: -2% 5% 5% 5%;
+            color: #aaaaaa;
+            font-family: "Roboto Light";
+            line-height: 30px;
+        }
+
+        .collapsible {
+            transition: 0.2s;
+            background-color: #1d1d1d;
+            font-family: "Roboto";
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 80%;
+            border: none;
+            border-radius: 13px;
+            text-align: left;
+            outline: none;
+            font-size: 25px;
+        }
+
+        .active, .collapsible:hover {
+            
+            background-color: #181818;
+        }
+
+        .content {
+            margin: 18px 0;
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id=titlebar>
+        <h1 id=title>clapped-bot</h1>
+        <h2 id=slash>/</h2>
+        <div class=grid-titlebar id=social>
+            <div class=grid-item>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=844980897912455238&permissions=8&scope=bot">
+                    <div>
+                        <span style="font-size: 4em; color: #262626;">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href="https://discord.gg/JapyTMmn">
+                    <div>
+                        <span style="font-size: 4em; color: #262626;">
+                            <i class="fab fa-discord"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href="">
+                    <div id=join>
+                        <span style="font-size: 4em; color: #262626;">
+                            <i class="fab fa-ethereum"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href="https://github.com/hummusbird">
+                    <div id=join>
+                        <span style="font-size: 4em; color: #262626;">
+                            <i class="fab fa-github"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id = page2>
+        <h1 id = subtitle>Why use clapped?</h1>
+        <div class="grid-container" id="sitegrid"> 
+            <div class="grid-item">
+                <h2 id="subtitle">IT'S FREE</h2>
+                <h3>Clapped is a bog-standard discord modbot. Nothing interesting, except it's COMPLETELY FREE. No premium features, no cooldown on commands, no shitty adverts, and no moaning for donations. (except on this website)</h3>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/map.png">
+            </div>
+
+            <div class="grid-item">
+                <h2 id="subtitle">EASY SETUP</h2>
+                <h3>Clapped runs off a simple command based config. No dogshit web-interfaces that have 2% uptime. Add to your server, and it already works. Want to customise the prefix? the "FUCK YOU" reply? go ahead.</h3>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/config.png">
+            </div>
+
+            <div class="grid-item">
+                <h2 id="subtitle">ALL THE FEATURES</h2>
+                <h3>Clapped has most of the features that any premium modbot has. Autorole? yep. dice roller? absolutely. Even YT audio playback!</h3>
+                <h3>Have a new idea? send me a message and i'll add it!</h3>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/balls.png">
+            </div>
+        </div>
+    </div>
+
+    <div id = page3>
+        <div>
+            <h1 id = subtitle>Current features</h1>
+        </div>
+
+        <button class="collapsible">Standard commands</button>
+        <div class="content">
+            <p>These commands can be used by all users</p>
+        </div>
+
+        <button class="collapsible">Audio commands</button>
+        <div class="content">
+            <p>These commands can be used by all users</p>
+        </div>
+
+        <button class="collapsible">Moderation commands</button>
+        <div class="content">
+            <p>These commands can be used by users with the "BAN_MEMBERS" permission</p>
+
+            <p>These commands can be used by users with the "MANAGE_MESSAGES" permission</p>
+        </div>
+
+        <button class="collapsible">User management</button>
+        <div class="content">
+            <p>These commands can be used by users with the "MANAGE_NICKNAMES" permission</p>
+        </div>
+
+        <button class="collapsible">Administration commands</button>
+        <div class="content">
+            <p>These commands can be used by users with the "ADMINISTRATOR" permission</p>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                content.style.maxHeight = null;
+                } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                } 
+            });
+            }
+        </script>
+    </div>
+</body>

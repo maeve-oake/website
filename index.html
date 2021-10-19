@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <meta charset="utf-8">
+    <title>hummusbird.co.uk</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/4a26b129ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+
+    <style>
+        ::selection {
+            background: #44ffb18c;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #262626;
+            text-align: center;
+            font-family: "Roboto";
+            text-decoration: none;
+            overflow-x: hidden;
+        }
+
+        #toast {
+            visibility: hidden;
+            min-width: 200px;
+            margin-left: -125px;
+            background-color: #f42069;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 20px;
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        #titlebar {
+            display: flex;
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            background: -webkit-linear-gradient(230deg, #f42069 20%, rgba(0,241,255,1) 100%);
+            height: 100vh;
+            width: 100vw;
+
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        #titlebar.shrink {
+            animation-name: titlebar_shrink;
+            animation-fill-mode: forwards;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+        }
+
+        @keyframes titlebar_shrink {
+            from {
+                background-color: #262626;
+                height: 100vh;
+            }
+
+            to {
+                background-color: #1d1d1d;
+                height: 120px;
+            }
+        }
+
+        /* #rightbox {
+            position: fixed;
+            height: 100vh;
+            width: 50vw;
+            top: 0;
+            right: 0;
+            background-color: #262626;
+
+            z-index: 6;
+            animation-name: right_vanish;
+            animation-fill-mode: forwards;
+            animation-delay: 1.5s;
+        }
+
+        @keyframes right_vanish {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        #leftbox {
+            position: fixed;
+            height: 100vh;
+            width: 50vw;
+            top: 0;
+            left: 0;
+            background-color: #262626;
+
+            z-index: 4;
+            animation-name: left_vanish;
+            animation-fill-mode: forwards;
+            animation-delay: 2.5s;
+        }
+
+        @keyframes left_vanish {
+            to {
+                visibility: hidden;
+            }
+        } */
+
+        #title {
+            left: calc(50% - 500px);
+            text-align: right;
+            position: absolute;
+            font-size: 72px;
+            font-family: "Open Sans";
+            color: #ffffff;
+            padding: 0% 0px 0% 0%;
+            margin: 0% 0px 0% 0px;
+            cursor: context-menu;
+            animation-name: title_slide;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-delay: .5s;
+
+            z-index: 5;
+        }
+
+        /* @keyframes title_slide {
+            from {
+                left: 50%
+            }
+
+            to {
+                left: calc(50% - 500px);
+            }
+        } */
+
+        #slash {
+            padding-bottom: 5px;
+            margin: 0px;
+            position: absolute;
+            font-size: 200px;
+            font-family: "Open Sans";
+            color: #ffffff;
+            user-select: none;
+            z-index: 10;
+            opacity: 100%;
+        }
+
+
+        #social {
+            user-select: none;
+            right: calc(50% - 570px);
+            display: grid;
+            position: absolute;
+            grid-template-columns: 70px 70px 70px 70px 70px 70px;
+            gap: 0% 8%;
+            justify-content: center;
+            z-index: 2;
+
+            animation-name: social_slide;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-delay: 1.5s;
+        }
+
+        /* @keyframes social_slide {
+            from {
+                right: 55%
+            }
+
+            to {
+                right: calc(50% - 480px);
+            }
+        } */
+
+        #social a div {
+            transition: .2s;
+            height: 70px;
+        }
+
+        #social a div img {
+            width: 45px;
+            height: 45px;
+            padding-top: 15px
+        }
+
+        #social a:hover div {
+            transform: scale(1.15);
+        }
+
+        #social a button {
+            background: transparent;
+            border: none !important;
+            outline: none;
+            cursor: pointer;
+        }
+
+        #morebutton {
+            font-size: 50px;
+            position: absolute;
+            bottom: 0%;
+            z-index: 10;
+            color: #ffffff;
+            background: transparent;
+            border: none;
+            outline: none;
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            transition: 0.3s;
+            animation-name: morebutton_show;
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 0.5s;
+            visibility: hidden;
+        }
+
+        #morebutton:hover {
+            cursor: pointer;
+            color: #f42069;
+        }
+
+        @keyframes morebutton_show {
+            from {
+                visibility: hidden;
+                opacity: 0%;
+            }
+
+            to {
+                visibility: unset;
+                opacity: 100%;
+            }
+        }
+
+        @keyframes morebutton_hide {
+            from {
+                visibility: unset;
+                opacity: 100%;
+            }
+
+            to {
+                visibility: hidden;
+                opacity: 0%;
+            }
+        }
+
+        #sitegrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+            gap: 50px;
+            align-content: center;
+            padding: 10%;
+            padding-top: 150px;
+            overflow: hidden;
+        }
+
+        #sitegrid div {
+            transition: transform .15s;
+            border-radius: 13px;
+            background: #1f1f1f
+        }
+
+        #sitegrid div a:link {
+            text-decoration: none !important;
+        }
+
+        #sitegrid div img {
+            width: 100%;
+            height: 100%;
+            border-radius: 13px
+        }
+
+        #text h1 {
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 2.5fr;
+        }
+
+        #text h2 {
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 2fr;
+        }
+
+        #unicode-copy {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            align-content: center;
+            padding: 0% 10% 5% 10%;
+        }
+
+        #unicode-copy div button {
+            color: #ffffff;
+            background-color: #161616;
+            border-radius: 10px;
+            border: 0px solid;
+            margin: auto;
+            padding: 10px;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            font-size: 22px;
+            transition: .15s;
+            overflow: hidden;
+        }
+
+        #unicode-copy div button:hover {
+            background-color: #f42069;
+            cursor: pointer;
+        }
+
+
+        #imggrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            align-content: center;
+            padding: 0% 5% 5% 5%;
+        }
+
+        #imggrid div {
+            transition: transform .15s;
+            color: #ffffff;
+            background-color: #161616;
+            height: 1fr
+        }
+
+        #imggrid div:hover {
+            transform: scale(1.03);
+        }
+
+        #crypto {
+            display: none;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            align-content: center;
+            padding: 0% 5% 0% 5%;
+        }
+
+        #crypto div {
+            color: #b6b6b6;
+            background-color: #161616;
+            height: 1fr;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        #belowCrypto button{
+            border: none;
+            color: #b6b6b6;
+            margin: 10px 0px 10px 0px;
+            background-color: #1f1f1f;
+            transition: .15s;
+            border-radius: 5px;
+            display: inline-block;
+            align-self: left;
+        }
+
+        #belowCrypto button:hover{
+            background-color: #f42069;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        #belowCrypto p{
+            display:inline-block;
+            color: #b6b6b6;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        #underline{
+            background-color: #f42069;
+            width: auto;
+            padding: 0.5px
+        }
+
+        #apierror h1 {
+            color: #f42069;
+            font-size: 2fr;
+        }
+
+        #text{
+            overflow: hidden;
+        }
+
+        #text a {
+            font-size: 2fr;
+            color: #ffffff;
+            font-family: "Roboto";
+            text-decoration: none !important;
+        }
+
+       #marquee marquee {
+            font-size: 1.5em;
+            background-color: #f42069;
+            color: #ffffff;
+            width: 100%;
+            height: 100%;
+            margin: 0px 0px 20px 0px;
+            padding: 10px;
+            user-select: none;
+        } 
+
+        #serverGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            align-content: center;
+            padding: 0% 5% 5% 5%;
+        }
+
+        #serverGrid div{
+            background-color: #161616;
+            color: #b6b6b6;
+            transition: .15s;
+            overflow: hidden;
+        }
+
+        #serverGrid div:hover{
+            background-color: #f42069;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        #serverGrid div:hover .title { display:none }        
+        #serverGrid div .subtitle { display:none }
+        #serverGrid div:hover .subtitle { display:block }
+
+    </style>
+</head>
+
+<body>
+    <div id=titlebar>
+        <h1 id=title>hummusbird</h1>
+        <h2 id=slash>/</h2>
+
+        <div class=grid-titlebar id=social>
+
+            <div class=grid-item>
+                <a href="https://steamcommunity.com/id/hummusbirb">
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-steam"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href="https://www.instagram.com/hummusbirb/">
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href="https://twitter.com/hummusbirb">
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href=https://www.discordapp.com/users/375671695240855553>
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-discord"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class=grid-item>
+                <a href=https://www.github.com/hummusbird>
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-github"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id=rightbox></div>
+        <div id=leftbox></div>
+
+        <button id="morebutton" onclick="moreButton();">v</button>
+
+    </div>
+
+
+    <div class="grid-container" id="sitegrid">
+        <div id="text" class="grid-item">
+
+            <h1>Unicode Characters</h1>
+
+            <div class="grid-container" id="unicode-copy">
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('﷽')">﷽</button>
+                </div>
+
+                <div class="grid-item">
+                    <button
+                        onclick="copyToClipboard('̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺ͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩ ')">̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺̺ͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩͩ</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('⸻')">⸻</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('𒐪')">𒐪</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('ඞ')">ඞ</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('𒍼')">𒍼</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('( ͡° ͜ʖ ͡°)')">( ͡° ͜ʖ ͡°)</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('Ɛ>')">Ɛ></button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('₿')">₿</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('​')">zero-width</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('឵឵')">U+1755</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('᲼')">U+1CBC</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('¿')">¿</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('=^._.^= ∫')">=^._.^= ∫</butto᲼n>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('｡＾･ｪ･＾｡')">｡＾･ｪ･＾｡</button>
+                </div>
+
+                <div class="grid-item">
+                    <button onclick="copyToClipboard('ᓚᘏᗢ')">ᓚᘏᗢ</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="text" class="grid-item">
+            <h1>Projects</h1>
+            <div class=grid-container id=imggrid>
+
+                <div class=grid-item>
+                    <a href="/projects/ethernet-bot/">
+                        <img src="images/ethernet-bot.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/wallpaperchanger/">
+                        <img src="images/wallpaper-changer.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/powercord-crypto/">
+                        <img src="images/pc-crypto.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/clapped/">
+                        <img src="images/clapped.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="text" class="grid-item">
+            <h1>Latest Video</h1>
+            <iframe class="latestVideoEmbed" vnum='0' cid="UCLWZz9da1OEVtbEvYE95Zjw" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script>
+                var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+                function loadVideo(iframe) {
+                $.getJSON(reqURL + iframe.getAttribute('cid'),
+                    function(data) {
+                    var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
+                    console.log(videoNumber);
+                    var link = data.items[videoNumber].link;
+                    id = link.substr(link.indexOf("=") + 1);
+                    iframe.setAttribute("src", "https://youtube.com/embed/" + id);
+                    }
+                );
+                }
+                var iframes = document.getElementsByClassName('latestVideoEmbed');
+                for (var i = 0, len = iframes.length; i < len; i++) {
+                loadVideo(iframes[i]);
+                }
+            </script>
+            <h1></h1>
+        </div>
+
+        <div id=text class="grid-item">
+            <h1>Servers</h1>
+
+            <div class=grid-container id=serverGrid>
+
+                <div class=grid-item onclick = "">
+                    <p>mc.birb.cc</p>
+                    <h1 id = mcplayers class = title>Offline</h1>
+                    <h1 id = mcmap class = subtitle>b</h1>
+                </div>
+
+                <div class=grid-item onclick = "window.location.href='steam://connect/cs.hummusbird.co.uk:27015'">
+                    <p id = csname >cs.hummusbird.co.uk</p>
+                    <h1 id = csplayers class = title>Offline</h1>
+                    <h1 id = csmap class = subtitle>Offline</h1>
+                    
+                </div>
+
+                <div class=grid-item onclick = "window.location.href='steam://connect/cs.birb.cc:27016'">
+                    <p id = cssname>cs.birb.cc</p>
+                    <h1 id = cssplayers class = title>Offline</h1>
+                    <h1 id = cssmap class = subtitle>Offline</h1>
+                    
+                </div>
+
+                <div class=grid-item onclick = "window.location.href='steam://connect/cs.hughtb.com'">
+                    <p id = dmname>cs.hughtb.com</p>
+                    <h1 id = dmplayers class = title>Offline</h1>
+                    <h1 id = dmmap class = subtitle>Offline</h1>
+                </div>
+
+            </div>
+
+            <script>
+                serverstatus("mc");
+                serverstatus("cs");
+                serverstatus("css");
+                serverstatus("dm");
+            </script>
+
+        </div>
+
+        <div id=text class="grid-item">
+            <h1>Crypto</h1>
+
+            <div id=marquee>
+                <marquee id=marqueetext></marquee>
+            </div>
+
+            <div class=grid-container id=crypto>
+
+                <div class=grid-item>
+                    <p>1 Bitcoin equals</p>
+                    <h1 id = btcRate></h1>
+                </div>
+
+                <div class=grid-item>
+                    <p>1 Ether equals</p>
+                    <h1 id = ethRate></h1>
+                </div>
+
+                <div class=grid-item>
+                    <p>1 Dogecoin equals</p>
+                    <h1 id = dogeRate></h1>
+                </div>
+
+                <div class=grid-item>
+                    <p>1 Ravencoin equals</p>
+                    <h1 id = rvnRate></h1>
+                </div>
+            </div>
+
+            <div id=apierror>
+                <h1>API could not be reached!</h1>
+            </div>
+
+            <div id = belowCrypto>
+                <button id = switchCurrencies onclick = "cryptoprices('gbp')">USD</button>
+                <p>// prices from coingecko //</p>
+                <button id = refreshPrices onclick = "cryptoprices('usd'); toastNotif('Refreshed rates!');">refresh</button>
+            </div>
+
+            <script>
+                cryptoprices("usd");
+                cryptomarquee();
+            </script>
+        </div>
+        
+        <div id="text" class="grid-item">
+            <h1>CS:GO Maps</h1>
+            <div class=grid-container id=imggrid>
+
+                <div class=grid-item>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2088449928">
+                        <img src="images/de_stranded.jpg">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2063655124">
+                        <img src="images/bhop_precipitation.jpg">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2275636212">
+                        <img src="images/mg_bloodybastard.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2062070916">
+                        <img src="images/bhop_bigfunny.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <div id="toast"></div>
+
+</body>
+
+</html>

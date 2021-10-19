@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>hummusbird.co.uk</title>
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <style>
+            body {margin: 0; padding: 0; overflow: shown; background-color: #262626; text-align: center; font-family: "Open Sans"; text-decoration: none; overflow-x: hidden}
+            p1 {font-size: 25px}
+            #error {
+                color: #ffffff;
+                font-size: 300%;
+                width: fit-content;
+                margin: auto;
+                margin-top: 5%;
+                white-space: nowrap;
+            }
+            #underline {background-color: #f42069; padding: 0.5px; margin-top: -70px; margin-bottom: 15px}
+
+            #inputbox {text-align: center; padding-top: 30px;}
+            #inputbox input {
+                background-color: #424242; 
+                font-family: "Roboto"; 
+                font-size: medium; 
+                color: #ffffff; 
+                border: 0px solid; 
+                border-radius: 5px;
+                width: 600px; 
+                padding: 10px;
+                } 
+                
+            #submit {
+                display: block;
+                background-color: #424242;
+                border: 0px solid; 
+                border-radius: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                padding: 10px;
+                width: 200px;
+                text-decoration: none;
+                font-size: 25px;
+                font-family: "Roboto";
+                color: #ffffff;
+                transition: 0.2s;
+            } 
+            #submit:hover{
+                background-color: #f42069;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id = error>
+            <h1>hummusbird</h1>
+            <div id = underline></div>
+        </div>
+
+        <div id = "inputbox">
+            <input type = "username" name = "user" placeholder = "Username" autofocus>
+        </div>
+
+        <div id = "inputbox">
+            <input type = "password" name = "pass" placeholder = "Password">
+        </div>
+        
+        <a href = "logincheck" id = submit>Login</a>
+        
+    </body>
