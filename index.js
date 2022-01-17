@@ -28,8 +28,12 @@ function moreButton() {
 }
 
 async function serverstatus(id) {
+	let NSres = await fetch("https://northstar.tf/client/servers")
+	let NSparsed = await NSres.json()
+
 	let res = await fetch("https://www.hummusbird.co.uk/getServer/" + id + ".txt")
 	let parsed = await res.json()
+
 	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object) {
 		console.log(id + " is offline")
 	}
@@ -37,6 +41,32 @@ async function serverstatus(id) {
 		document.getElementById(id + "name").innerHTML = (parsed.Name)
 		document.getElementById(id + "map").innerHTML = (parsed.Map)
 		document.getElementById(id + "players").innerHTML = (parsed.Players + "/" + parsed.MaxPlayers + " Players")
+	}
+
+	if (NSparsed && Object.keys(NSparsed).length === 0 && NSparsed.constructor === Object) {
+		console.log(id + " is offline")
+	}
+	else {
+		var birbservers = 0
+		var connected = 0
+		var slots = 0
+		var allservers = 0
+		var allslots = 0
+		var allconnected = 0
+
+		for (var i = 0; i < NSparsed.length; i++){
+			allservers ++
+			allslots += NSparsed[i]["maxPlayers"]
+			allconnected += NSparsed[i]["playerCount"]
+			if (NSparsed[i]["name"].includes("birb")){
+				birbservers++
+				slots += NSparsed[i]["maxPlayers"]
+				connected += NSparsed[i]["playerCount"]
+			}
+		}
+		document.getElementById("nsname").innerHTML = (birbservers + " birb servers online")
+		document.getElementById("nsplayers").innerHTML = (connected + "/" + slots)
+		document.getElementById("nsmap").innerHTML = (allconnected + "/" + allslots)
 	}
 }
 
