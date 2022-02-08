@@ -28,6 +28,7 @@
             font-family: "Roboto";
             text-decoration: none;
             overflow-x: hidden;
+            overflow: hidden;
         }
 
         #toast {
@@ -77,14 +78,14 @@
 
         #titlebar {
             display: flex;
-            position: fixed;
+            position: relative;
             align-items: center;
             justify-content: center;
-            background: -webkit-linear-gradient(230deg, #f42069 20%, rgba(0,241,255,1) 100%);
+            background-color: #000000;
+            /* background: -webkit-linear-gradient(230deg, #f42069 20%, rgba(0,241,255,1) 100%); */
             height: 100vh;
             width: 100vw;
 
-            z-index: 1;
             overflow: hidden;
         }
 
@@ -97,55 +98,13 @@
 
         @keyframes titlebar_shrink {
             from {
-                background-color: #262626;
                 height: 100vh;
             }
 
             to {
-                background-color: #1d1d1d;
                 height: 120px;
             }
         }
-
-        /* #rightbox {
-            position: fixed;
-            height: 100vh;
-            width: 50vw;
-            top: 0;
-            right: 0;
-            background-color: #262626;
-
-            z-index: 6;
-            animation-name: right_vanish;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-        }
-
-        @keyframes right_vanish {
-            to {
-                visibility: hidden;
-            }
-        }
-
-        #leftbox {
-            position: fixed;
-            height: 100vh;
-            width: 50vw;
-            top: 0;
-            left: 0;
-            background-color: #262626;
-
-            z-index: 4;
-            animation-name: left_vanish;
-            animation-fill-mode: forwards;
-            animation-delay: 2.5s;
-        }
-
-        @keyframes left_vanish {
-            to {
-                visibility: hidden;
-            }
-        } */
 
         #title {
             left: calc(50% - 500px);
@@ -157,23 +116,7 @@
             padding: 0% 0px 0% 0%;
             margin: 0% 0px 0% 0px;
             cursor: context-menu;
-            animation-name: title_slide;
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-            animation-delay: .5s;
-
-            z-index: 5;
         }
-
-        /* @keyframes title_slide {
-            from {
-                left: 50%
-            }
-
-            to {
-                left: calc(50% - 500px);
-            }
-        } */
 
         #slash {
             padding-bottom: 5px;
@@ -183,40 +126,40 @@
             font-family: "Open Sans";
             color: #ffffff;
             user-select: none;
-            z-index: 10;
             opacity: 100%;
         }
 
+        #slash.shift {
+            animation-name: slash_shift;
+            animation-fill-mode: forwards;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+        }
+
+        @keyframes slash_shift {
+            from {
+                margin-top: 0px;
+            }
+
+            to{
+                margin-top: -37px;
+            }
+        }
 
         #social {
             user-select: none;
-            right: calc(50% - 570px);
+            right: calc(50% - 475px);
             display: grid;
             position: absolute;
-            grid-template-columns: 70px 70px 70px 70px 70px 70px;
-            gap: 0% 8%;
+            grid-template-columns: 70px 70px 70px 70px 70px;
+            gap: 0% 10%;
             justify-content: center;
-            z-index: 2;
-
-            animation-name: social_slide;
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
         }
-
-        /* @keyframes social_slide {
-            from {
-                right: 55%
-            }
-
-            to {
-                right: calc(50% - 480px);
-            }
-        } */
 
         #social a div {
             transition: .2s;
             height: 70px;
+            mix-blend-mode: exclusion;
         }
 
         #social a div img {
@@ -234,13 +177,17 @@
             border: none !important;
             outline: none;
             cursor: pointer;
+            
+        }
+
+        figure video {
+            mix-blend-mode: exclusion;
         }
 
         #morebutton {
             font-size: 50px;
             position: absolute;
             bottom: 0%;
-            z-index: 10;
             color: #ffffff;
             background: transparent;
             border: none;
@@ -255,6 +202,7 @@
             animation-direction: alternate;
             animation-delay: 0.5s;
             visibility: hidden;
+            mix-blend-mode: exclusion;
         }
 
         #morebutton:hover {
@@ -286,13 +234,71 @@
             }
         }
 
+        #mute {
+            font-size: 15px;
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            color: #ffffff;
+            background: transparent;
+            border: none;
+            outline: none;
+            margin: auto;
+            width: 100px;
+            height: 50px;
+            transition: 0.3s;
+            animation-name: morebutton_show;
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 0.5s;
+            visibility: hidden;
+            mix-blend-mode: exclusion;
+        }
+
+        #mute:hover {
+            cursor: pointer;
+            color: #f42069;
+        }
+
+        #pause {
+            font-size: 15px;
+            position: absolute;
+            bottom: 0%;
+            right: 0%;
+            color: #ffffff;
+            background: transparent;
+            border: none;
+            outline: none;
+            margin: auto;
+            width: 100px;
+            height: 50px;
+            transition: 0.3s;
+            animation-name: morebutton_show;
+            animation-duration: 0.5s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 0.5s;
+            visibility: hidden;
+            mix-blend-mode: exclusion;
+        }
+
+        #pause:hover {
+            cursor: pointer;
+            color: #f42069;
+        }
+
+        .latestVideoEmbed {
+            width: 90%;
+        }
+
         #sitegrid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
             gap: 50px;
             align-content: center;
             padding: 10%;
-            padding-top: 150px;
+            padding-top: 50px;
             overflow: hidden;
         }
 
@@ -434,7 +440,7 @@
             text-decoration: none !important;
         }
 
-       #marquee marquee {
+        #marquee marquee {
             font-size: 1.5em;
             background-color: #f42069;
             color: #ffffff;
@@ -478,8 +484,17 @@
         <h1 id=title>hummusbird</h1>
         <h2 id=slash>/</h2>
 
-        <div class=grid-titlebar id=social>
+        <figure>
+            <video autoplay muted loop id="1975vid">
+                <source id="1975src" type="video/mp4">
+            </video>
+        </figure>
 
+        <script>
+            randvid();
+        </script>
+
+        <div class=grid-titlebar id=social>
             <div class=grid-item>
                 <a href="https://steamcommunity.com/id/hummusbirb">
                     <div>
@@ -508,15 +523,6 @@
                 </a>
             </div>
             <div class=grid-item>
-                <a href=https://www.discordapp.com/users/375671695240855553>
-                    <div>
-                        <span style="font-size: 4em; color: #ffffff;">
-                            <i class="fab fa-discord"></i>
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <div class=grid-item>
                 <a href=https://www.github.com/hummusbird>
                     <div>
                         <span style="font-size: 4em; color: #ffffff;">
@@ -525,17 +531,79 @@
                     </div>
                 </a>
             </div>
+            <div class=grid-item>
+                <a href=https://www.discordapp.com/users/375671695240855553>
+                    <div>
+                        <span style="font-size: 4em; color: #ffffff;">
+                            <i class="fab fa-discord"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            
         </div>
 
-        <div id=rightbox></div>
-        <div id=leftbox></div>
-
         <button id="morebutton" onclick="moreButton();">v</button>
+
+        <button id="pause" onclick="pausebg();">PAUSE</button>
+        <button id="mute" onclick="mutebg();">MUTE</button>
 
     </div>
 
 
     <div class="grid-container" id="sitegrid">
+
+        <div id="text" class="grid-item">
+            <h1>Latest Video</h1>
+            <iframe class="latestVideoEmbed" vnum='0' cid="UCLWZz9da1OEVtbEvYE95Zjw" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script>
+                var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+                function loadVideo(iframe) {
+                $.getJSON(reqURL + iframe.getAttribute('cid'),
+                    function(data) {
+                    var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
+                    console.log(videoNumber);
+                    var link = data.items[videoNumber].link;
+                    id = link.substr(link.indexOf("=") + 1);
+                    iframe.setAttribute("src", "https://youtube.com/embed/" + id);
+                    }
+                );
+                }
+                var iframes = document.getElementsByClassName('latestVideoEmbed');
+                for (var i = 0, len = iframes.length; i < len; i++) {
+                loadVideo(iframes[i]);
+                }
+            </script>
+        </div>
+
+        <div id="text" class="grid-item">
+            <h1>Projects</h1>
+            <div class=grid-container id=imggrid>
+
+                <div class=grid-item>
+                    <a href="/projects/matrix/">
+                        <img src="images/matrix.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/wallpaperchanger/">
+                        <img src="images/wallpaper-changer.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/powercord-crypto/">
+                        <img src="images/pc-crypto.png">
+                    </a>
+                </div>
+                <div class=grid-item>
+                    <a href="/projects/clapped/">
+                        <img src="images/clapped.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div id="text" class="grid-item">
 
             <h1>Unicode Characters</h1>
@@ -608,58 +676,6 @@
 
             </div>
 
-        </div>
-
-        <div id="text" class="grid-item">
-            <h1>Projects</h1>
-            <div class=grid-container id=imggrid>
-
-                <div class=grid-item>
-                    <a href="/projects/ethernet-bot/">
-                        <img src="images/ethernet-bot.png">
-                    </a>
-                </div>
-                <div class=grid-item>
-                    <a href="/projects/wallpaperchanger/">
-                        <img src="images/wallpaper-changer.png">
-                    </a>
-                </div>
-                <div class=grid-item>
-                    <a href="/projects/powercord-crypto/">
-                        <img src="images/pc-crypto.png">
-                    </a>
-                </div>
-                <div class=grid-item>
-                    <a href="/projects/clapped/">
-                        <img src="images/clapped.png">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div id="text" class="grid-item">
-            <h1>Latest Video</h1>
-            <iframe class="latestVideoEmbed" vnum='0' cid="UCLWZz9da1OEVtbEvYE95Zjw" width="600" height="340" frameborder="0" allowfullscreen></iframe>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-            <script>
-                var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-                function loadVideo(iframe) {
-                $.getJSON(reqURL + iframe.getAttribute('cid'),
-                    function(data) {
-                    var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-                    console.log(videoNumber);
-                    var link = data.items[videoNumber].link;
-                    id = link.substr(link.indexOf("=") + 1);
-                    iframe.setAttribute("src", "https://youtube.com/embed/" + id);
-                    }
-                );
-                }
-                var iframes = document.getElementsByClassName('latestVideoEmbed');
-                for (var i = 0, len = iframes.length; i < len; i++) {
-                loadVideo(iframes[i]);
-                }
-            </script>
-            <h1></h1>
         </div>
 
         <div id=text class="grid-item">

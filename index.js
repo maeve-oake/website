@@ -1,3 +1,7 @@
+window.onbeforeunload = function () {
+	window.scrollTo(0, 0);
+}
+
 function copyToClipboard(text) {
 
 	navigator.clipboard.writeText(text);
@@ -17,14 +21,56 @@ function toastNotif(text) {
 	setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 }
 
+function randvid() {
+	var num = Math.floor(Math.random() * 3)
+	source = document.getElementById("1975src")
+	video = document.getElementById("1975vid")
+
+	if (num == 0) {
+		source.src = "mp4/frailstateofmind.mp4"
+	}
+	else if (num == 1) {
+		source.src = "mp4/giveyourselfatry.mp4"
+	}
+	else {
+		source.src = "mp4/somebodyelse.mp4"
+	}
+
+	video.load();
+	video.play();
+}
+
 function addCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function mutebg() {
+	video = document.getElementById("1975vid")
+	btn = document.getElementById("mute")
+
+	video.muted = !video.muted;
+}
+
+function pausebg() {
+	video = document.getElementById("1975vid")
+	btn = document.getElementById("pause")
+	if (video.paused) {
+		video.play();
+		btn.innerHTML = "PAUSE";
+	} else {
+		video.pause();
+		btn.innerHTML = "PLAY";
+	}
 }
 
 function moreButton() {
 	document.getElementById("titlebar").classList.add('shrink');
+	document.getElementById("slash").classList.add('shift')
 	document.getElementById("morebutton").style.animationDelay = ("0s")
 	document.getElementById("morebutton").style.animationName = ("morebutton_hide")
+
+	document.body.style.overflow = "auto"
+
 }
 
 async function serverstatus(id) {
@@ -54,11 +100,11 @@ async function serverstatus(id) {
 		var allslots = 0
 		var allconnected = 0
 
-		for (var i = 0; i < NSparsed.length; i++){
-			allservers ++
+		for (var i = 0; i < NSparsed.length; i++) {
+			allservers++
 			allslots += NSparsed[i]["maxPlayers"]
 			allconnected += NSparsed[i]["playerCount"]
-			if (NSparsed[i]["name"].includes("birb")){
+			if (NSparsed[i]["name"].includes("birb")) {
 				birbservers++
 				slots += NSparsed[i]["maxPlayers"]
 				connected += NSparsed[i]["playerCount"]
@@ -73,24 +119,24 @@ async function serverstatus(id) {
 async function cryptoprices(currency) {
 	let res = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CEthereum%2CEthereum-Classic%2CRavencoin%2CDogecoin%2C&vs_currencies=USD%2CGBP")
 	let parsed = await res.json()
-	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object){
+	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object) {
 		document.getElementById("apierror").style.display = ("initial");
 		document.getElementById("crypto").style.display = ("none");
 		document.getElementById("marquee").style.display = ("none");
 	}
-	else{
+	else {
 		var sign = ""
 
 		document.getElementById("apierror").style.display = ("none")
 		document.getElementById("crypto").style.display = ("grid");
 
-		if (currency == "gbp"){
-			sign = "£" 
+		if (currency == "gbp") {
+			sign = "£"
 			document.getElementById("refreshPrices").setAttribute("onclick", "cryptoprices('gbp'); toastNotif('Refreshed rates!');")
 			document.getElementById("switchCurrencies").innerHTML = ("GBP")
 			document.getElementById("switchCurrencies").setAttribute("onclick", "cryptoprices('usd')")
 		}
-		else{
+		else {
 			sign = "$"
 			document.getElementById("refreshPrices").setAttribute("onclick", "cryptoprices('usd'); toastNotif('Refreshed rates!');")
 			document.getElementById("switchCurrencies").innerHTML = ("USD")
@@ -101,7 +147,7 @@ async function cryptoprices(currency) {
 		document.getElementById("ethRate").innerHTML = (sign + addCommas(parsed.ethereum[currency]) + " " + currency.toUpperCase())
 		document.getElementById("dogeRate").innerHTML = (sign + parsed.dogecoin[currency] + " " + currency.toUpperCase())
 		document.getElementById("rvnRate").innerHTML = (sign + parsed.ravencoin[currency] + " " + currency.toUpperCase())
-		
+
 
 
 	}
@@ -111,11 +157,11 @@ async function cryptoprices(currency) {
 async function cryptomarquee() {
 	let res = await fetch("https://api.coingecko.com/api/v3/status_updates")
 	let parsed = await res.json()
-	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object){
+	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object) {
 		document.getElementById("marquee").style.display = ("none");
 	}
-	else{
-		document.getElementById("marqueetext").innerHTML = (parsed.status_updates[0].description.replace(/"/g,"") + "\t" + parsed.status_updates[1].description.replace(/"/g,"") + "\t" + parsed.status_updates[2].description.replace(/"/g,""))
+	else {
+		document.getElementById("marqueetext").innerHTML = (parsed.status_updates[0].description.replace(/"/g, "") + "\t" + parsed.status_updates[1].description.replace(/"/g, "") + "\t" + parsed.status_updates[2].description.replace(/"/g, ""))
 	}
 
 }
