@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2021-12-08T13:35:49Z</date>
+	<key>Application Version</key><string>12.12.2.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/hummusbird/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>3F6351F2E0234808</string>
+	<key>Tracks</key>
+	<dict>
+		<key>227</key>
+		<dict>
+			<key>Track ID</key><integer>227</integer>
+			<key>Name</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9612260</integer>
+			<key>Total Time</key><integer>386194</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T14:07:47Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3709638631</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:10:31Z</date>
+			<key>Skip Count</key><integer>10</integer>
+			<key>Skip Date</key><date>2021-07-05T13:45:30Z</date>
+			<key>Normalization</key><integer>1976</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>D1CA1EABC6EAF45B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20I%20like%20it%20when%20you%20sleep,%20for%20you%20are%20so%20beautiful%20yet%20so%20unaware%20of%20it.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>229</key>
+		<dict>
+			<key>Track ID</key><integer>229</integer>
+			<key>Name</key><string>Medicine</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Medicine</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9100923</integer>
+			<key>Total Time</key><integer>352992</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T14:07:47Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3708506799</integer>
+			<key>Play Date UTC</key><date>2021-07-07T11:46:39Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-12-10T16:02:59Z</date>
+			<key>Normalization</key><integer>1540</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>7B19C5BC8617EAA4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Medicine.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>231</key>
+		<dict>
+			<key>Track ID</key><integer>231</integer>
+			<key>Name</key><string>The 1975</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2195155</integer>
+			<key>Total Time</key><integer>80039</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Date Modified</key><date>2021-02-02T00:08:00Z</date>
+			<key>Date Added</key><date>2020-04-23T14:07:47Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3709643143</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:25:43Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2020-12-20T15:21:31Z</date>
+			<key>Normalization</key><integer>1349</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>1975</string>
+			<key>Persistent ID</key><string>DFD6E9355E1BEFAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20The%201975.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>237</key>
+		<dict>
+			<key>Track ID</key><integer>237</integer>
+			<key>Name</key><string>Stay With Me</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>English Electric</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6418394</integer>
+			<key>Total Time</key><integer>265430</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T14:38:40Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3709649599</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:13:19Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-07-05T13:59:58Z</date>
+			<key>Normalization</key><integer>2206</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1288FC9349649CAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Stay%20With%20Me.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>239</key>
+		<dict>
+			<key>Track ID</key><integer>239</integer>
+			<key>Name</key><string>Electricity</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>English Electric</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3524913</integer>
+			<key>Total Time</key><integer>210311</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T14:57:47Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>18</integer>
+			<key>Play Date</key><integer>3709638841</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:14:01Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2020-12-10T16:03:04Z</date>
+			<key>Normalization</key><integer>346</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CB0714CE3FE5EBB0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Electricity.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>241</key>
+		<dict>
+			<key>Track ID</key><integer>241</integer>
+			<key>Name</key><string>Everything Now</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Everything Now</string>
+			<key>Genre</key><string>Indie / Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5844140</integer>
+			<key>Total Time</key><integer>351164</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2021-11-09T20:28:05Z</date>
+			<key>Date Added</key><date>2020-04-23T15:07:56Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>26</integer>
+			<key>Play Date</key><integer>3709650155</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:22:35Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2021-02-23T16:05:22Z</date>
+			<key>Normalization</key><integer>4164</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>02503D2B7518B805</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Arcade%20Fire%20-%20Everything%20Now.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>243</key>
+		<dict>
+			<key>Track ID</key><integer>243</integer>
+			<key>Name</key><string>Put Your Money On Me</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Everything Now</string>
+			<key>Genre</key><string>Indie / Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8755024</integer>
+			<key>Total Time</key><integer>355395</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2021-11-09T20:28:51Z</date>
+			<key>Date Added</key><date>2020-04-23T15:16:56Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3709657125</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:18:45Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-02-09T01:52:30Z</date>
+			<key>Normalization</key><integer>3157</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>DCB218D9D86CA56C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Arcade%20Fire%20-%20Put%20Your%20Money%20on%20Me.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>247</key>
+		<dict>
+			<key>Track ID</key><integer>247</integer>
+			<key>Name</key><string>Sprawl II (Mountains Beyond Mountains)</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>The Suburbs</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7819717</integer>
+			<key>Total Time</key><integer>325642</integer>
+			<key>Date Modified</key><date>2021-11-09T20:26:55Z</date>
+			<key>Date Added</key><date>2020-04-23T15:28:45Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3709645914</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:11:54Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-06-09T22:51:49Z</date>
+			<key>Normalization</key><integer>3865</integer>
+			<key>Sort Album</key><string>Suburbs</string>
+			<key>Persistent ID</key><string>E230F93D9D491340</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Arcade%20Fire%20-%20Sprawl%20II%20(Mountains%20Beyond%20Mountains).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>249</key>
+		<dict>
+			<key>Track ID</key><integer>249</integer>
+			<key>Name</key><string>Chocolate</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5854586</integer>
+			<key>Total Time</key><integer>232515</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T15:41:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3709657357</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:22:37Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-05-29T14:23:30Z</date>
+			<key>Normalization</key><integer>4865</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>E34F0BF6B917FFE7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Chocolate.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>251</key>
+		<dict>
+			<key>Track ID</key><integer>251</integer>
+			<key>Name</key><string>Sex</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6052066</integer>
+			<key>Total Time</key><integer>240744</integer>
+			<key>Start Time</key><integer>27500</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T16:05:56Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>38</integer>
+			<key>Play Date</key><integer>3709650368</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:26:08Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2020-08-21T11:30:30Z</date>
+			<key>Normalization</key><integer>2425</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>3A1B1D0288CFFDFC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Sex.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>253</key>
+		<dict>
+			<key>Track ID</key><integer>253</integer>
+			<key>Name</key><string>Milk</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Milk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2118292</integer>
+			<key>Total Time</key><integer>132127</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:10:55Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>44</integer>
+			<key>Play Date</key><integer>3709644224</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:43:44Z</date>
+			<key>Normalization</key><integer>5706</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>52E9D220C08321F3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Milk.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>255</key>
+		<dict>
+			<key>Track ID</key><integer>255</integer>
+			<key>Name</key><string>Girls</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4350138</integer>
+			<key>Total Time</key><integer>254746</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:13:00Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3709641717</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:01:57Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2020-09-11T14:44:11Z</date>
+			<key>Normalization</key><integer>5254</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>A846CD1E82F54EB5</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Girls.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>257</key>
+		<dict>
+			<key>Track ID</key><integer>257</integer>
+			<key>Name</key><string>The Sound</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4584985</integer>
+			<key>Total Time</key><integer>265090</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:16:12Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3709657622</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:27:02Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2021-07-05T13:08:39Z</date>
+			<key>Normalization</key><integer>7368</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>Sound</string>
+			<key>Persistent ID</key><string>DBECE3184112488F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20The%20sound.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>259</key>
+		<dict>
+			<key>Track ID</key><integer>259</integer>
+			<key>Name</key><string>She's American</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6828594</integer>
+			<key>Total Time</key><integer>270210</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:18:47Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>27</integer>
+			<key>Play Date</key><integer>3709647342</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:35:42Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-12-22T01:02:59Z</date>
+			<key>Normalization</key><integer>7721</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>DFEA5CDAB75CE410</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20She's%20American.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>261</key>
+		<dict>
+			<key>Track ID</key><integer>261</integer>
+			<key>Name</key><string>Give Yourself a Try</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4725156</integer>
+			<key>Total Time</key><integer>196702</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:20:24Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3708530156</integer>
+			<key>Play Date UTC</key><date>2021-07-07T18:15:56Z</date>
+			<key>Skip Count</key><integer>12</integer>
+			<key>Skip Date</key><date>2021-08-10T23:32:47Z</date>
+			<key>Normalization</key><integer>8328</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>3434998F149E74FB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Give%20Yourself%20A%20Try.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>263</key>
+		<dict>
+			<key>Track ID</key><integer>263</integer>
+			<key>Name</key><string>A Change Of Heart</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7252408</integer>
+			<key>Total Time</key><integer>287869</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T17:25:04Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3709651988</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:53:08Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-11-12T09:42:33Z</date>
+			<key>Normalization</key><integer>2316</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>Change Of Heart</string>
+			<key>Persistent ID</key><string>780A2CAF48C40B3F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20A%20Change%20of%20Heart.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>265</key>
+		<dict>
+			<key>Track ID</key><integer>265</integer>
+			<key>Name</key><string>Inside Your Mind</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5550831</integer>
+			<key>Total Time</key><integer>231105</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:26:13Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3709638038</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:00:38Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-05-29T14:23:21Z</date>
+			<key>Normalization</key><integer>3404</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>36D5228E45817513</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Inside%20Your%20Mind.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>271</key>
+		<dict>
+			<key>Track ID</key><integer>271</integer>
+			<key>Name</key><string>Enola Gay</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>The OMD Singles</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5084381</integer>
+			<key>Total Time</key><integer>211670</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:32:02Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3710784132</integer>
+			<key>Play Date UTC</key><date>2021-08-02T20:22:12Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-05-31T09:59:59Z</date>
+			<key>Normalization</key><integer>4799</integer>
+			<key>Sort Album</key><string>OMD Singles</string>
+			<key>Persistent ID</key><string>38DE26A319BF7073</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Enola%20Gay.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>273</key>
+		<dict>
+			<key>Track ID</key><integer>273</integer>
+			<key>Name</key><string>Messages</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>The OMD Singles</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5797209</integer>
+			<key>Total Time</key><integer>241371</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:34:01Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3709640924</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:48:44Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2020-10-09T15:27:00Z</date>
+			<key>Normalization</key><integer>4322</integer>
+			<key>Sort Album</key><string>OMD Singles</string>
+			<key>Persistent ID</key><string>FC8C99CA5E2705A1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Messages%20(Remastered%202019).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>277</key>
+		<dict>
+			<key>Track ID</key><integer>277</integer>
+			<key>Name</key><string>Paris (Acoustic)</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975 - Acoustic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7152215</integer>
+			<key>Total Time</key><integer>296280</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:40:10Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3708529216</integer>
+			<key>Play Date UTC</key><date>2021-07-07T18:00:16Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-12-22T01:07:54Z</date>
+			<key>Normalization</key><integer>1918</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975 - Acoustic</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>234B56EB0D21AEB8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Paris%20(Acoustic).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>279</key>
+		<dict>
+			<key>Track ID</key><integer>279</integer>
+			<key>Name</key><string>Paris</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7380292</integer>
+			<key>Total Time</key><integer>293198</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:41:54Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3709653859</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:24:19Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-07-05T13:27:08Z</date>
+			<key>Normalization</key><integer>3768</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>9C8702B301D458C3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Paris.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>281</key>
+		<dict>
+			<key>Track ID</key><integer>281</integer>
+			<key>Name</key><string>TOOTIMETOOTIMETOOTIME</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5158372</integer>
+			<key>Total Time</key><integer>214752</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:43:45Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3708546267</integer>
+			<key>Play Date UTC</key><date>2021-07-07T22:44:27Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-06-09T22:46:30Z</date>
+			<key>Normalization</key><integer>7178</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>B878D2B841749CFB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20TOOTIMETOOTIMETOOTIME.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>283</key>
+		<dict>
+			<key>Track ID</key><integer>283</integer>
+			<key>Name</key><string>I Like America &#38; America Likes Me</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4945852</integer>
+			<key>Total Time</key><integer>205897</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:47:04Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3709654309</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:31:49Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-08-03T16:09:12Z</date>
+			<key>Normalization</key><integer>3888</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>E8712137A084799F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20I%20Like%20America%20&#38;%20America%20Likes%20Me%20.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>285</key>
+		<dict>
+			<key>Track ID</key><integer>285</integer>
+			<key>Name</key><string>The City</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5478421</integer>
+			<key>Total Time</key><integer>216842</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T17:48:28Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3710855571</integer>
+			<key>Play Date UTC</key><date>2021-08-03T16:12:51Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2020-11-19T16:09:57Z</date>
+			<key>Normalization</key><integer>6267</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>City</string>
+			<key>Persistent ID</key><string>A17E1BDDCC61B796</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20The%20City.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>287</key>
+		<dict>
+			<key>Track ID</key><integer>287</integer>
+			<key>Name</key><string>Sincerity Is Scary</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5429834</integer>
+			<key>Total Time</key><integer>226063</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:50:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>38</integer>
+			<key>Play Date</key><integer>3709645227</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:00:27Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-05-27T12:47:02Z</date>
+			<key>Normalization</key><integer>3041</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>62E6AB7DB6811E65</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Sincerity%20Is%20Scary.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>289</key>
+		<dict>
+			<key>Track ID</key><integer>289</integer>
+			<key>Name</key><string>Somebody Else</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8686841</integer>
+			<key>Total Time</key><integer>347637</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:57:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>18</integer>
+			<key>Play Date</key><integer>3709643063</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:24:23Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2020-09-08T23:09:39Z</date>
+			<key>Normalization</key><integer>4711</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>A69D19AE57DB70F1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Somebody%20Else.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>291</key>
+		<dict>
+			<key>Track ID</key><integer>291</integer>
+			<key>Name</key><string>Loving Someone</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6544635</integer>
+			<key>Total Time</key><integer>257933</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:07:31Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3708529474</integer>
+			<key>Play Date UTC</key><date>2021-07-07T18:04:34Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-06-14T13:15:51Z</date>
+			<key>Normalization</key><integer>960</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>2CB730E52F48DB5E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Loving%20Someone.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>293</key>
+		<dict>
+			<key>Track ID</key><integer>293</integer>
+			<key>Name</key><string>Fallingforyou</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6061480</integer>
+			<key>Total Time</key><integer>241136</integer>
+			<key>Track Number</key><integer>33</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:11:50Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3709642716</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:18:36Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-08-02T19:59:16Z</date>
+			<key>Normalization</key><integer>1235</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>7B91A1B3F10A2065</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20fallingforyou.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>295</key>
+		<dict>
+			<key>Track ID</key><integer>295</integer>
+			<key>Name</key><string>Menswear</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5238931</integer>
+			<key>Total Time</key><integer>206863</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:14:17Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>26</integer>
+			<key>Play Date</key><integer>3709638244</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:04:04Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2021-04-14T14:33:37Z</date>
+			<key>Normalization</key><integer>1461</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>09A5FF9052506A0C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Menswear.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>297</key>
+		<dict>
+			<key>Track ID</key><integer>297</integer>
+			<key>Name</key><string>HNSCC</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Music For Cars EP</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3631736</integer>
+			<key>Total Time</key><integer>151144</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:24:19Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3708533869</integer>
+			<key>Play Date UTC</key><date>2021-07-07T19:17:49Z</date>
+			<key>Skip Count</key><integer>11</integer>
+			<key>Skip Date</key><date>2021-07-05T13:08:45Z</date>
+			<key>Normalization</key><integer>1134</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>5CDE263BF9CA9E92</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20HNSCC.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>299</key>
+		<dict>
+			<key>Track ID</key><integer>299</integer>
+			<key>Name</key><string>Haunt // Bed</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>IV</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7360899</integer>
+			<key>Total Time</key><integer>305162</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:25:10Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3709658236</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:37:16Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-07-14T13:50:32Z</date>
+			<key>Normalization</key><integer>1422</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>AB2C5CABED5E2BA7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20HauntBed.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>301</key>
+		<dict>
+			<key>Track ID</key><integer>301</integer>
+			<key>Name</key><string>Undo</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6157392</integer>
+			<key>Total Time</key><integer>245133</integer>
+			<key>Track Number</key><integer>22</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T18:33:57Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3709652958</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:09:18Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2021-02-23T16:05:34Z</date>
+			<key>Normalization</key><integer>3217</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>DEAEABED268C02BD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Undo.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>303</key>
+		<dict>
+			<key>Track ID</key><integer>303</integer>
+			<key>Name</key><string>An Encounter</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2071013</integer>
+			<key>Total Time</key><integer>74866</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:36:05Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3710783437</integer>
+			<key>Play Date UTC</key><date>2021-08-02T20:10:37Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2020-11-16T13:04:14Z</date>
+			<key>Normalization</key><integer>1397</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>Encounter</string>
+			<key>Persistent ID</key><string>B0670C39C960CC4F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20An%20Encounter.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>305</key>
+		<dict>
+			<key>Track ID</key><integer>305</integer>
+			<key>Name</key><string>Please be Naked</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>I like it when you sleep, for you are so beautiful yet so unaware of it</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6726404</integer>
+			<key>Total Time</key><integer>265952</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T18:40:11Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>15</integer>
+			<key>Play Date</key><integer>3709647608</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:40:08Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2020-11-16T10:33:45Z</date>
+			<key>Normalization</key><integer>3715</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>F30E417EFB7B670C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Please%20be%20Naked.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>307</key>
+		<dict>
+			<key>Track ID</key><integer>307</integer>
+			<key>Name</key><string>How To Draw / Petrichor</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8435885</integer>
+			<key>Total Time</key><integer>349727</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:41:45Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3709644092</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:41:32Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-11-16T02:30:22Z</date>
+			<key>Normalization</key><integer>2102</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>05D01FBEAD9B3CAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20How%20To%20Draw%20Petrichor.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>309</key>
+		<dict>
+			<key>Track ID</key><integer>309</integer>
+			<key>Name</key><string>M.O.N.E.Y.</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5474662</integer>
+			<key>Total Time</key><integer>216685</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:42:37Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3708543953</integer>
+			<key>Play Date UTC</key><date>2021-07-07T22:05:53Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-05-29T14:28:30Z</date>
+			<key>Normalization</key><integer>2793</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>61413D5D255BF702</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20M.O.N.E.Y.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>311</key>
+		<dict>
+			<key>Track ID</key><integer>311</integer>
+			<key>Name</key><string>Anobrain</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3013925</integer>
+			<key>Total Time</key><integer>114155</integer>
+			<key>Track Number</key><integer>25</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T18:45:03Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3708536331</integer>
+			<key>Play Date UTC</key><date>2021-07-07T19:58:51Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2021-02-07T15:59:59Z</date>
+			<key>Normalization</key><integer>1853</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>575C25E976A8DF0B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Anobrain.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>313</key>
+		<dict>
+			<key>Track ID</key><integer>313</integer>
+			<key>Name</key><string>Facedown</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4435195</integer>
+			<key>Total Time</key><integer>173374</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:48:23Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3708504709</integer>
+			<key>Play Date UTC</key><date>2021-07-07T11:11:49Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2020-12-04T10:33:12Z</date>
+			<key>Normalization</key><integer>2526</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>0A58B012E938B11E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Facedown.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>315</key>
+		<dict>
+			<key>Track ID</key><integer>315</integer>
+			<key>Name</key><string>The Birthday Party</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The Birthday Party</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6732637</integer>
+			<key>Total Time</key><integer>277995</integer>
+			<key>Year</key><integer>2020</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T18:49:52Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>26</integer>
+			<key>Play Date</key><integer>3715941760</integer>
+			<key>Play Date UTC</key><date>2021-10-01T13:02:40Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-01-29T11:43:40Z</date>
+			<key>Normalization</key><integer>1674</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Birthday Party</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>Birthday Party</string>
+			<key>Persistent ID</key><string>7126F686FB00AEE8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20The%20Birthday%20Party.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>317</key>
+		<dict>
+			<key>Track ID</key><integer>317</integer>
+			<key>Name</key><string>It's Not Living (If It's Not With You)</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5967107</integer>
+			<key>Total Time</key><integer>248450</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T18:59:27Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3709644784</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:53:04Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2020-09-11T14:32:06Z</date>
+			<key>Normalization</key><integer>7416</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>B8D08F11202F71ED</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20It's%20Not%20Living%20(If%20It's%20Not%20With%20You).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>319</key>
+		<dict>
+			<key>Track ID</key><integer>319</integer>
+			<key>Name</key><string>She Way Out</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6018846</integer>
+			<key>Total Time</key><integer>239360</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T19:52:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3709654735</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:38:55Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-08-01T13:08:31Z</date>
+			<key>Normalization</key><integer>4964</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>82BFE1F91EE7F22D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20She%20Way%20Out.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>321</key>
+		<dict>
+			<key>Track ID</key><integer>321</integer>
+			<key>Name</key><string>Heart Out</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5132352</integer>
+			<key>Total Time</key><integer>202422</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T19:52:57Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>31</integer>
+			<key>Play Date</key><integer>3709641126</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:52:06Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2020-11-16T02:29:16Z</date>
+			<key>Normalization</key><integer>3883</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>6F3F6459F1686FC3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Heart%20Out.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>323</key>
+		<dict>
+			<key>Track ID</key><integer>323</integer>
+			<key>Name</key><string>12</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2186987</integer>
+			<key>Total Time</key><integer>79699</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2021-02-02T00:08:00Z</date>
+			<key>Date Added</key><date>2020-04-23T19:54:06Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3708533228</integer>
+			<key>Play Date UTC</key><date>2021-07-07T19:07:08Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-11-16T02:15:40Z</date>
+			<key>Normalization</key><integer>1091</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>B5D1A13D63D126B8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%2012.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>337</key>
+		<dict>
+			<key>Track ID</key><integer>337</integer>
+			<key>Name</key><string>Me</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Music For Cars EP</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6583988</integer>
+			<key>Total Time</key><integer>274155</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T23:03:48Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3709642474</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:14:34Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-02-23T16:05:31Z</date>
+			<key>Normalization</key><integer>1302</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>BFFBD8DD6445C3CA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Me.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>339</key>
+		<dict>
+			<key>Track ID</key><integer>339</integer>
+			<key>Name</key><string>102 (Acoustic)</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975 - Acoustic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5819969</integer>
+			<key>Total Time</key><integer>240770</integer>
+			<key>Date Modified</key><date>2021-02-02T00:08:00Z</date>
+			<key>Date Added</key><date>2020-04-23T23:07:18Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3709639305</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:21:45Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-07-19T19:13:09Z</date>
+			<key>Normalization</key><integer>1259</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975 - Acoustic</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>F423291207C94E77</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20102%20(Acoustic).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>341</key>
+		<dict>
+			<key>Track ID</key><integer>341</integer>
+			<key>Name</key><string>I Couldn't Be More In Love</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5574665</integer>
+			<key>Total Time</key><integer>232097</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T23:15:12Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3709643375</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:29:35Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2021-08-02T19:58:34Z</date>
+			<key>Normalization</key><integer>3530</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>8E3F870DD6EBDDBA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20I%20Couldn't%20Be%20More%20In%20Love.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>345</key>
+		<dict>
+			<key>Track ID</key><integer>345</integer>
+			<key>Name</key><string>Creature Comfort</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Everything Now</string>
+			<key>Genre</key><string>Indie / Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6876083</integer>
+			<key>Total Time</key><integer>277106</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2021-11-09T20:28:34Z</date>
+			<key>Date Added</key><date>2020-04-23T23:22:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3709640336</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:38:56Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-07-05T13:45:24Z</date>
+			<key>Normalization</key><integer>5131</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6D343282CD460034</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Arcade%20Fire%20-%20Creature%20Comfort.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>353</key>
+		<dict>
+			<key>Track ID</key><integer>353</integer>
+			<key>Name</key><string>If You're Too Shy (Let Me Know)</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>If You're Too Shy (Let Me Know)</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9179587</integer>
+			<key>Total Time</key><integer>315428</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-24T15:47:36Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3709652303</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:58:23Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-07-02T13:44:13Z</date>
+			<key>Normalization</key><integer>1585</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>651D4E10F4BCCDE8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20If%20You're%20Too%20Shy%20(Let%20Me%20Know).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>357</key>
+		<dict>
+			<key>Track ID</key><integer>357</integer>
+			<key>Name</key><string>Settle Down</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6061692</integer>
+			<key>Total Time</key><integer>240222</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-05-15T02:01:40Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>29</integer>
+			<key>Play Date</key><integer>3709658474</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:41:14Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2020-05-26T14:03:01Z</date>
+			<key>Normalization</key><integer>1756</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>CB6EB8C748C3D27B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Settle%20Down.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>381</key>
+		<dict>
+			<key>Track ID</key><integer>381</integer>
+			<key>Name</key><string>Frail State Of Mind</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Frail State Of Mind</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5679389</integer>
+			<key>Total Time</key><integer>234945</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-05-22T15:41:47Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3709647843</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:44:03Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-05-24T12:50:53Z</date>
+			<key>Normalization</key><integer>3648</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>C99CCA9F8A0DA502</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Frail%20State%20of%20Mind.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>387</key>
+		<dict>
+			<key>Track ID</key><integer>387</integer>
+			<key>Name</key><string>The End</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Notes On A Conditional Form</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3494872</integer>
+			<key>Total Time</key><integer>149054</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-05-22T15:55:43Z</date>
+			<key>Bit Rate</key><integer>187</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3709645376</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:02:56Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-07-05T14:21:56Z</date>
+			<key>Normalization</key><integer>1142</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Sort Name</key><string>End</string>
+			<key>Persistent ID</key><string>58F837FD1DF21599</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20The%20End%20-%20NOACF.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>389</key>
+		<dict>
+			<key>Track ID</key><integer>389</integer>
+			<key>Name</key><string>Streaming</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Notes On A Conditional Form</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2038426</integer>
+			<key>Total Time</key><integer>89495</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-05-22T16:08:33Z</date>
+			<key>Bit Rate</key><integer>181</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3715941482</integer>
+			<key>Play Date UTC</key><date>2021-10-01T12:58:02Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-06-21T11:56:28Z</date>
+			<key>Normalization</key><integer>357</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>FB5184E816C1B320</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Streaming%20-%20NOACF.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>397</key>
+		<dict>
+			<key>Track ID</key><integer>397</integer>
+			<key>Name</key><string>Me &#38; You Together Song</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Notes On A Conditional Form</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5037628</integer>
+			<key>Total Time</key><integer>205557</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-05-22T17:22:35Z</date>
+			<key>Bit Rate</key><integer>195</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3709652509</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:01:49Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2020-06-18T19:05:12Z</date>
+			<key>Normalization</key><integer>3021</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>B9E6525119E3AE22</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Me%20&#38;%20You%20Together%20Song%20-%20NOACF.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>399</key>
+		<dict>
+			<key>Track ID</key><integer>399</integer>
+			<key>Name</key><string>I Think There's Something You Should Know</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Notes On A Conditional Form</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5817320</integer>
+			<key>Total Time</key><integer>238863</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-05-22T17:27:14Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3708502032</integer>
+			<key>Play Date UTC</key><date>2021-07-07T10:27:12Z</date>
+			<key>Normalization</key><integer>648</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>5030F0A4107A7E3A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20I%20Think%20There's%20Something%20You%20Should%20Know%20-%20NOACF.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>407</key>
+		<dict>
+			<key>Track ID</key><integer>407</integer>
+			<key>Name</key><string>You</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>Sex</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>19445789</integer>
+			<key>Total Time</key><integer>1570429</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>4</integer>
+			<key>Date Modified</key><date>2021-02-02T00:08:00Z</date>
+			<key>Date Added</key><date>2020-05-22T17:48:54Z</date>
+			<key>Bit Rate</key><integer>98</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3708538754</integer>
+			<key>Play Date UTC</key><date>2021-07-07T20:39:14Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-07-14T13:50:24Z</date>
+			<key>Normalization</key><integer>2370</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>A7C5BCFABBAAF965</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20You%20-%20Sex.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>439</key>
+		<dict>
+			<key>Track ID</key><integer>439</integer>
+			<key>Name</key><string>Love It If We Made It</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6101703</integer>
+			<key>Total Time</key><integer>250253</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-08-21T11:55:35Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3709648971</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:02:51Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-11-19T16:10:01Z</date>
+			<key>Normalization</key><integer>1933</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>B4A7C54E9D029596</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Love%20It%20If%20We%20Made%20It.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>451</key>
+		<dict>
+			<key>Track ID</key><integer>451</integer>
+			<key>Name</key><string>Robbers</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>The 1975</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6436450</integer>
+			<key>Total Time</key><integer>253648</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Date Modified</key><date>2021-08-02T20:27:11Z</date>
+			<key>Date Added</key><date>2020-12-08T23:05:01Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3709656009</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:00:09Z</date>
+			<key>Normalization</key><integer>1593</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>1975</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>D156065F07607D94</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Robbers.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>467</key>
+		<dict>
+			<key>Track ID</key><integer>467</integer>
+			<key>Name</key><string>The Right Side?</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>History of Modern</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12999507</integer>
+			<key>Total Time</key><integer>494184</integer>
+			<key>Date Modified</key><date>2021-08-10T23:28:46Z</date>
+			<key>Date Added</key><date>2021-06-10T00:42:17Z</date>
+			<key>Bit Rate</key><integer>208</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3709637807</integer>
+			<key>Play Date UTC</key><date>2021-07-20T13:56:47Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2021-07-02T13:48:26Z</date>
+			<key>Normalization</key><integer>1312</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Right Side?</string>
+			<key>Persistent ID</key><string>44F05217B1E8135E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/OMD%20-%20The%20Right%20Side.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>469</key>
+		<dict>
+			<key>Track ID</key><integer>469</integer>
+			<key>Name</key><string>History of Modern (Part I)</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>History of Modern</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7459397</integer>
+			<key>Total Time</key><integer>279745</integer>
+			<key>Date Modified</key><date>2021-06-10T00:41:47Z</date>
+			<key>Date Added</key><date>2021-06-10T00:42:17Z</date>
+			<key>Bit Rate</key><integer>210</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3709646853</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:27:33Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2021-08-10T23:32:40Z</date>
+			<key>Normalization</key><integer>1313</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>286D708688BE5355</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/OMD%20-%20History%20of%20Modern%20(Part%20I).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>523</key>
+		<dict>
+			<key>Track ID</key><integer>523</integer>
+			<key>Name</key><string>Afterlife</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>Reflektor</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8006228</integer>
+			<key>Total Time</key><integer>351320</integer>
+			<key>Date Modified</key><date>2021-11-09T20:30:03Z</date>
+			<key>Date Added</key><date>2021-11-07T11:31:33Z</date>
+			<key>Bit Rate</key><integer>182</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1264</integer>
+			<key>Persistent ID</key><string>49353AA182ADE0A7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Arcade%20Fire%20-%20Afterlife.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>playlist_1</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>1122</integer>
+			<key>Playlist Persistent ID</key><string>64C2BCA4306CF51F</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>523</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>241</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>345</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>243</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>247</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>239</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>237</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>271</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>273</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>469</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>467</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>231</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>251</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>249</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>451</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>255</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>357</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>285</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>253</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>317</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>263</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>259</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>283</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>261</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>281</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>439</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>341</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>287</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>265</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>407</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>227</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>291</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>381</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>279</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>305</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>289</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>257</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>353</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>315</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>399</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>397</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>389</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>309</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>277</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>303</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>311</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>313</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>319</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>321</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>295</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>293</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>301</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>307</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>229</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>387</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>297</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>337</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>299</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>323</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>339</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

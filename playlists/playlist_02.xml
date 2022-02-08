@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2021-12-08T13:35:45Z</date>
+	<key>Application Version</key><string>12.12.2.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/hummusbird/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>3F6351F2E0234808</string>
+	<key>Tracks</key>
+	<dict>
+		<key>245</key>
+		<dict>
+			<key>Track ID</key><integer>245</integer>
+			<key>Name</key><string>Atmosphere</string>
+			<key>Artist</key><string>Joy Division</string>
+			<key>Album Artist</key><string>Joy Division</string>
+			<key>Album</key><string>The Best Of</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6048533</integer>
+			<key>Total Time</key><integer>250514</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:57Z</date>
+			<key>Date Added</key><date>2020-04-23T15:21:39Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3709653208</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:13:28Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2021-06-09T22:32:15Z</date>
+			<key>Normalization</key><integer>1080</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Best Of</string>
+			<key>Persistent ID</key><string>EAB2155FF8613AAF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Joy%20Division%20-%20Atmosphere.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>269</key>
+		<dict>
+			<key>Track ID</key><integer>269</integer>
+			<key>Name</key><string>Maid Of Orleans</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>The OMD Singles</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6057395</integer>
+			<key>Total Time</key><integer>252212</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-04-23T17:30:39Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3708502284</integer>
+			<key>Play Date UTC</key><date>2021-07-07T10:31:24Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2021-06-21T15:33:10Z</date>
+			<key>Normalization</key><integer>3141</integer>
+			<key>Sort Album</key><string>OMD Singles</string>
+			<key>Persistent ID</key><string>D1933911C9A83854</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Maid%20Of%20Orleans.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>275</key>
+		<dict>
+			<key>Track ID</key><integer>275</integer>
+			<key>Name</key><string>Souvenir</string>
+			<key>Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album Artist</key><string>Orchestral Manoeuvres In The Dark</string>
+			<key>Album</key><string>The OMD Singles</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5207260</integer>
+			<key>Total Time</key><integer>216790</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:36:15Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3709645001</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:56:41Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2021-08-10T23:20:43Z</date>
+			<key>Normalization</key><integer>4209</integer>
+			<key>Sort Album</key><string>OMD Singles</string>
+			<key>Persistent ID</key><string>AE00A465E95958BE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/OMD%20-%20Souvenir%20(Remastered%202019).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>287</key>
+		<dict>
+			<key>Track ID</key><integer>287</integer>
+			<key>Name</key><string>Sincerity Is Scary</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5429834</integer>
+			<key>Total Time</key><integer>226063</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T17:50:38Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>38</integer>
+			<key>Play Date</key><integer>3709645227</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:00:27Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-05-27T12:47:02Z</date>
+			<key>Normalization</key><integer>3041</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>62E6AB7DB6811E65</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20Sincerity%20Is%20Scary.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>343</key>
+		<dict>
+			<key>Track ID</key><integer>343</integer>
+			<key>Name</key><string>Wicked Games</string>
+			<key>Artist</key><string>Parra for Cuva, Anna Naklab</string>
+			<key>Album Artist</key><string>Parra for Cuva, Anna Naklab</string>
+			<key>Album</key><string>Wicked Games</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8598587</integer>
+			<key>Total Time</key><integer>356832</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-04-23T23:18:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3708531205</integer>
+			<key>Play Date UTC</key><date>2021-07-07T18:33:25Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2021-07-05T13:08:25Z</date>
+			<key>Normalization</key><integer>1607</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F1EA942DBAC58F25</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/Parra%20for%20Cuva%20-%20Wicked%20Games.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>421</key>
+		<dict>
+			<key>Track ID</key><integer>421</integer>
+			<key>Name</key><string>Getting Away With It (All Messed Up)</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Pleased To Meet You</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6432664</integer>
+			<key>Total Time</key><integer>262452</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-07-18T22:22:50Z</date>
+			<key>Bit Rate</key><integer>195</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3708507062</integer>
+			<key>Play Date UTC</key><date>2021-07-07T11:51:02Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-02-08T01:30:43Z</date>
+			<key>Normalization</key><integer>1308</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>C293ECF39EB21D3D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/James%20-%20Getting%20Away%20With%20It%20(All%20Messed%20Up).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>423</key>
+		<dict>
+			<key>Track ID</key><integer>423</integer>
+			<key>Name</key><string>Just Like Fred Astaire</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Millionaires</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5570526</integer>
+			<key>Total Time</key><integer>223660</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-07-18T22:37:15Z</date>
+			<key>Bit Rate</key><integer>196</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>32</integer>
+			<key>Play Date</key><integer>3715942353</integer>
+			<key>Play Date UTC</key><date>2021-10-01T13:12:33Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-02-02T01:16:52Z</date>
+			<key>Normalization</key><integer>1482</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>122839B205F1E9A4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/James%20-%20Just%20Like%20Fred%20Astaire.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>425</key>
+		<dict>
+			<key>Track ID</key><integer>425</integer>
+			<key>Name</key><string>Your Silent Face</string>
+			<key>Artist</key><string>New Order</string>
+			<key>Album Artist</key><string>New Order</string>
+			<key>Album</key><string>Power Corruption and Lies</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9105067</integer>
+			<key>Total Time</key><integer>358504</integer>
+			<key>Date Modified</key><date>2021-02-02T00:08:00Z</date>
+			<key>Date Added</key><date>2020-07-18T22:47:10Z</date>
+			<key>Bit Rate</key><integer>194</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3709653567</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:19:27Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2020-09-09T21:43:13Z</date>
+			<key>Normalization</key><integer>881</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>98B7043CCD0FE9D2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/New%20Order%20-%20Your%20Silent%20Face.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>427</key>
+		<dict>
+			<key>Track ID</key><integer>427</integer>
+			<key>Name</key><string>Say Something</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Laid</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4981855</integer>
+			<key>Total Time</key><integer>204956</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:59Z</date>
+			<key>Date Added</key><date>2020-07-18T22:56:59Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3709649804</integer>
+			<key>Play Date UTC</key><date>2021-07-20T17:16:44Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-04-26T11:53:20Z</date>
+			<key>Normalization</key><integer>1446</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4F183879E2094032</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/James%20-%20Say%20Something.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>429</key>
+		<dict>
+			<key>Track ID</key><integer>429</integer>
+			<key>Name</key><string>Coming Home Pt.2</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Living in Extraordinary Times</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4789972</integer>
+			<key>Total Time</key><integer>218853</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2018</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-07-18T23:44:13Z</date>
+			<key>Bit Rate</key><integer>174</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3709647072</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:31:12Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-02-19T02:18:00Z</date>
+			<key>Normalization</key><integer>1468</integer>
+			<key>Persistent ID</key><string>E91A5B369D328869</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/James%20-%20Coming%20Home%20-%20Pt.2.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>431</key>
+		<dict>
+			<key>Track ID</key><integer>431</integer>
+			<key>Name</key><string>Leviathan</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Living in Extraordinary Times</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6342606</integer>
+			<key>Total Time</key><integer>270001</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2018</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-07-18T23:49:56Z</date>
+			<key>Bit Rate</key><integer>187</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3710784402</integer>
+			<key>Play Date UTC</key><date>2021-08-02T20:26:42Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-02-02T00:56:47Z</date>
+			<key>Normalization</key><integer>1351</integer>
+			<key>Persistent ID</key><string>4A00622A26A61AC3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/James%20-%20Leviathan.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>433</key>
+		<dict>
+			<key>Track ID</key><integer>433</integer>
+			<key>Name</key><string>Extraordinary Times</string>
+			<key>Artist</key><string>James</string>
+			<key>Album Artist</key><string>James</string>
+			<key>Album</key><string>Living in Extraordinary Times</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6441009</integer>
+			<key>Total Time</key><integer>282357</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2018</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-07-18T23:57:03Z</date>
+			<key>Bit Rate</key><integer>182</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3709655380</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:49:40Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2021-07-05T13:08:54Z</date>
+			<key>Normalization</key><integer>1490</integer>
+			<key>Persistent ID</key><string>F96A6DACFD5DD721</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/james%20-%20Extraordinary%20Times.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>435</key>
+		<dict>
+			<key>Track ID</key><integer>435</integer>
+			<key>Name</key><string>Age of Consent (2015 Remaster)</string>
+			<key>Artist</key><string>New Order</string>
+			<key>Album Artist</key><string>New Order</string>
+			<key>Album</key><string>Singles (2015 Remaster)</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6540751</integer>
+			<key>Total Time</key><integer>312111</integer>
+			<key>Date Modified</key><date>2021-11-09T20:27:14Z</date>
+			<key>Date Added</key><date>2020-08-07T19:49:14Z</date>
+			<key>Bit Rate</key><integer>167</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3709644536</integer>
+			<key>Play Date UTC</key><date>2021-07-20T15:48:56Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2021-11-09T20:27:15Z</date>
+			<key>Normalization</key><integer>113</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>71E6A564D65BC577</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/New%20Order%20-%20Age%20of%20Consent.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>445</key>
+		<dict>
+			<key>Track ID</key><integer>445</integer>
+			<key>Name</key><string>I Always Wanna Die (Sometimes)</string>
+			<key>Artist</key><string>The 1975</string>
+			<key>Album Artist</key><string>The 1975</string>
+			<key>Album</key><string>A Brief Inquiry Into Online Relationships</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7290102</integer>
+			<key>Total Time</key><integer>309812</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Date Modified</key><date>2021-02-02T00:07:58Z</date>
+			<key>Date Added</key><date>2020-08-21T12:17:54Z</date>
+			<key>Bit Rate</key><integer>188</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Volume Adjustment</key><integer>-1</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3709648430</integer>
+			<key>Play Date UTC</key><date>2021-07-20T16:53:50Z</date>
+			<key>Normalization</key><integer>1794</integer>
+			<key>Sort Album</key><string>Brief Inquiry Into Online Relationships</string>
+			<key>Sort Album Artist</key><string>1975</string>
+			<key>Sort Artist</key><string>1975</string>
+			<key>Persistent ID</key><string>DA9251B96FDC5E92</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/HummusBird/Music/The%201975%20-%20I%20Always%20Wanna%20Die%20(Sometimes).mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>453</key>
+		<dict>
+			<key>Track ID</key><integer>453</integer>
+			<key>Name</key><string>The Scientist</string>
+			<key>Artist</key><string>Coldplay</string>
+			<key>Album Artist</key><string>Coldplay</string>
+			<key>Album</key><string>A Rush of Blood to the Head</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7301474</integer>
+			<key>Total Time</key><integer>308401</integer>
+			<key>Date Modified</key><date>2021-11-09T20:31:47Z</date>
+			<key>Date Added</key><date>2021-02-02T00:16:54Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3709657931</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:32:11Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2021-02-19T02:29:46Z</date>
+			<key>Normalization</key><integer>1481</integer>
+			<key>Sort Album</key><string>Rush of Blood to the Head</string>
+			<key>Sort Name</key><string>Scientist</string>
+			<key>Persistent ID</key><string>6D63D7AE07EA1110</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Coldplay%20-%20The%20Scientist%20-%20A%20Rush%20of%20Blood%20to%20the%20Head.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>455</key>
+		<dict>
+			<key>Track ID</key><integer>455</integer>
+			<key>Name</key><string>Clocks</string>
+			<key>Artist</key><string>Coldplay</string>
+			<key>Album Artist</key><string>Coldplay</string>
+			<key>Album</key><string>A Rush of Blood to the Head</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7453530</integer>
+			<key>Total Time</key><integer>304927</integer>
+			<key>Date Modified</key><date>2021-11-09T20:31:34Z</date>
+			<key>Date Added</key><date>2021-02-02T00:26:05Z</date>
+			<key>Bit Rate</key><integer>195</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3709656769</integer>
+			<key>Play Date UTC</key><date>2021-07-20T19:12:49Z</date>
+			<key>Normalization</key><integer>1376</integer>
+			<key>Sort Album</key><string>Rush of Blood to the Head</string>
+			<key>Persistent ID</key><string>42AB047C50979077</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Coldplay%20-%20Clocks%20-%20A%20Rush%20of%20Blood%20to%20the%20Head.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>457</key>
+		<dict>
+			<key>Track ID</key><integer>457</integer>
+			<key>Name</key><string>Home</string>
+			<key>Artist</key><string>LCD Soundsystem</string>
+			<key>Album Artist</key><string>LCD Soundsystem</string>
+			<key>Album</key><string>This Is Happening</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12563289</integer>
+			<key>Total Time</key><integer>469733</integer>
+			<key>Date Modified</key><date>2021-08-02T20:00:45Z</date>
+			<key>Date Added</key><date>2021-06-02T00:04:38Z</date>
+			<key>Bit Rate</key><integer>180</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3719334309</integer>
+			<key>Play Date UTC</key><date>2021-11-09T20:25:09Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2021-07-14T13:44:40Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>1361</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6C7BC71EA367A451</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/LCD%20Soundsystem%20-%20Home.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>459</key>
+		<dict>
+			<key>Track ID</key><integer>459</integer>
+			<key>Name</key><string>oh baby</string>
+			<key>Artist</key><string>LCD Soundsystem</string>
+			<key>Album Artist</key><string>LCD Soundsystem</string>
+			<key>Album</key><string>american dream</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8557070</integer>
+			<key>Total Time</key><integer>346540</integer>
+			<key>Date Modified</key><date>2021-06-01T23:42:06Z</date>
+			<key>Date Added</key><date>2021-06-02T00:04:38Z</date>
+			<key>Bit Rate</key><integer>197</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3709640682</integer>
+			<key>Play Date UTC</key><date>2021-07-20T14:44:42Z</date>
+			<key>Normalization</key><integer>709</integer>
+			<key>Persistent ID</key><string>8D38A1AE9FF253CA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/LCD%20Soundsystem%20-%20oh%20baby.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>461</key>
+		<dict>
+			<key>Track ID</key><integer>461</integer>
+			<key>Name</key><string>All my Friends</string>
+			<key>Artist</key><string>LCD Soundsystem</string>
+			<key>Album Artist</key><string>LCD Soundsystem</string>
+			<key>Album</key><string>Sound of Silver</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10528022</integer>
+			<key>Total Time</key><integer>459964</integer>
+			<key>Date Modified</key><date>2021-08-02T20:03:05Z</date>
+			<key>Date Added</key><date>2021-06-02T00:04:38Z</date>
+			<key>Bit Rate</key><integer>180</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3710783368</integer>
+			<key>Play Date UTC</key><date>2021-08-02T20:09:28Z</date>
+			<key>Normalization</key><integer>2012</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>880C03E79CEB4A0B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/LCD%20Soundsystem%20-%20All%20My%20Friends.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>463</key>
+		<dict>
+			<key>Track ID</key><integer>463</integer>
+			<key>Name</key><string>Somebody That I Used To Know</string>
+			<key>Artist</key><string>Gotye</string>
+			<key>Album Artist</key><string>Gotye</string>
+			<key>Album</key><string>Making Mirrors</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5902990</integer>
+			<key>Total Time</key><integer>244166</integer>
+			<key>Date Modified</key><date>2021-06-02T00:14:11Z</date>
+			<key>Date Added</key><date>2021-06-02T00:13:15Z</date>
+			<key>Bit Rate</key><integer>185</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3709654103</integer>
+			<key>Play Date UTC</key><date>2021-07-20T18:28:23Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2021-06-10T00:26:46Z</date>
+			<key>Normalization</key><integer>1259</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>67E0DB26B2280644</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Gotye%20-%20Somebody%20That%20I%20Used%20To%20Know.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>513</key>
+		<dict>
+			<key>Track ID</key><integer>513</integer>
+			<key>Name</key><string>(Feels Like) Heaven</string>
+			<key>Artist</key><string>Fiction Factory</string>
+			<key>Album Artist</key><string>Fiction Factory</string>
+			<key>Album</key><string>Throw the Warped Wheel Out</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5021583</integer>
+			<key>Total Time</key><integer>208666</integer>
+			<key>Date Modified</key><date>2021-08-01T22:39:16Z</date>
+			<key>Date Added</key><date>2021-08-01T23:30:40Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3715941392</integer>
+			<key>Play Date UTC</key><date>2021-10-01T12:56:32Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2021-11-09T22:41:18Z</date>
+			<key>Normalization</key><integer>1581</integer>
+			<key>Persistent ID</key><string>5DB713EB93795BC9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Fiction%20Factory%20-%20(Feels%20Like)%20Heaven.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>517</key>
+		<dict>
+			<key>Track ID</key><integer>517</integer>
+			<key>Name</key><string>Half Light I</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>The Suburbs</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5964250</integer>
+			<key>Total Time</key><integer>253283</integer>
+			<key>Date Modified</key><date>2021-11-09T20:30:19Z</date>
+			<key>Date Added</key><date>2021-08-10T23:12:50Z</date>
+			<key>Bit Rate</key><integer>188</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2021-10-01T13:16:19Z</date>
+			<key>Normalization</key><integer>1813</integer>
+			<key>Sort Album</key><string>Suburbs</string>
+			<key>Persistent ID</key><string>B3A1631368C7DAE7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Arcade%20Fire%20-%20Half%20Light%20I.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>519</key>
+		<dict>
+			<key>Track ID</key><integer>519</integer>
+			<key>Name</key><string>Ready to Start</string>
+			<key>Artist</key><string>Arcade Fire</string>
+			<key>Album Artist</key><string>Arcade Fire</string>
+			<key>Album</key><string>The Suburbs</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5848214</integer>
+			<key>Total Time</key><integer>254537</integer>
+			<key>Date Modified</key><date>2021-11-09T20:30:35Z</date>
+			<key>Date Added</key><date>2021-08-10T23:12:50Z</date>
+			<key>Bit Rate</key><integer>183</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1718</integer>
+			<key>Sort Album</key><string>Suburbs</string>
+			<key>Persistent ID</key><string>153ED72480509C3B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/hummusbird/Music/Arcade%20Fire%20-%20Ready%20to%20Start.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>playlist_2</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>1185</integer>
+			<key>Playlist Persistent ID</key><string>63AFD6E0DC908539</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>245</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>269</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>275</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>429</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>431</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>433</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>427</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>423</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>421</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>425</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>435</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>343</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>445</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>287</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>455</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>453</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>463</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>459</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>461</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>457</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>517</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>519</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>513</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
