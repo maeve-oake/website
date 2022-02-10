@@ -4,11 +4,12 @@
 <head>
     <script src="index.js"></script>
     <meta charset="utf-8">
-    <title>hummusbird.co.uk</title>
+    <title>hummusbird</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/4a26b129ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap">
 
     <style>
         ::selection {
@@ -129,30 +130,13 @@
             opacity: 100%;
         }
 
-        #slash.shift {
-            animation-name: slash_shift;
-            animation-fill-mode: forwards;
-            animation-duration: 1.5s;
-            animation-timing-function: ease;
-        }
-
-        @keyframes slash_shift {
-            from {
-                margin-top: 0px;
-            }
-
-            to{
-                margin-top: -37px;
-            }
-        }
-
         #social {
             user-select: none;
-            right: calc(50% - 475px);
+            right: calc(50% - 450px);
             display: grid;
             position: absolute;
             grid-template-columns: 70px 70px 70px 70px 70px;
-            gap: 0% 10%;
+            gap: 0% 6%;
             justify-content: center;
         }
 
@@ -183,114 +167,79 @@
         figure video {
             filter: blur(20px);
             mix-blend-mode: exclusion;
+            min-width: 100vw;
+            min-height: 100vh;
         }
 
-        #morebutton {
-            font-size: 50px;
-            position: absolute;
-            bottom: 0%;
-            color: #ffffff;
-            background: transparent;
-            border: none;
-            outline: none;
-            margin: auto;
-            width: 100px;
-            height: 100px;
-            transition: 0.3s;
-            animation-name: morebutton_show;
-            animation-duration: 0.5s;
-            animation-fill-mode: both;
-            animation-direction: alternate;
-            animation-delay: 0.5s;
-            visibility: hidden;
-            mix-blend-mode: exclusion;
-        }
 
-        #morebutton:hover {
+        .bgbutton:hover {
             cursor: pointer;
             color: #f42069;
         }
 
-        @keyframes morebutton_show {
-            from {
-                visibility: hidden;
-                opacity: 0%;
-            }
-
-            to {
-                visibility: unset;
-                opacity: 100%;
-            }
-        }
-
-        @keyframes morebutton_hide {
-            from {
-                visibility: unset;
-                opacity: 100%;
-            }
-
-            to {
-                visibility: hidden;
-                opacity: 0%;
-            }
-        }
-
-        #mute {
+        .bgbutton {
             font-size: 15px;
             position: absolute;
             bottom: 0%;
-            left: 0%;
             color: #ffffff;
             background: transparent;
             border: none;
             outline: none;
             margin: auto;
-            width: 100px;
+            width: 50px;
             height: 50px;
             transition: 0.3s;
-            animation-name: morebutton_show;
-            animation-duration: 0.5s;
-            animation-fill-mode: both;
-            animation-direction: alternate;
-            animation-delay: 0.5s;
-            visibility: hidden;
             mix-blend-mode: exclusion;
-        }
-
-        #mute:hover {
-            cursor: pointer;
-            color: #f42069;
         }
 
         #pause {
-            font-size: 15px;
-            position: absolute;
-            bottom: 0%;
-            right: 0%;
-            color: #ffffff;
-            background: transparent;
-            border: none;
-            outline: none;
+            animation-delay: 2s;
+            right:0;
+        }
+
+        #mute {
+            animation-delay: 2s;
+            left:0;
+        }
+
+        #morebutton {
+            font-size: 30px;
             margin: auto;
             width: 100px;
-            height: 50px;
-            transition: 0.3s;
-            animation-name: morebutton_show;
+            height: 60px;
+        }
+
+        @keyframes title_fadein {
+            from {
+                visibility: hidden;
+                opacity: 0%;
+            }
+
+            to {
+                visibility: unset;
+                opacity: 100%;
+            }
+        }
+
+        @keyframes title_fadeout {
+            from {
+                visibility: unset;
+                opacity: 100%;
+            }
+
+            to {
+                visibility: hidden;
+                opacity: 0%;
+            }
+        }
+
+        .fadein {
+            animation-name: title_fadein;
             animation-duration: 0.5s;
             animation-fill-mode: both;
             animation-direction: alternate;
-            animation-delay: 0.5s;
+            animation-delay: 1s;
             visibility: hidden;
-            mix-blend-mode: exclusion;
-        }
-
-        #pause:hover {
-            cursor: pointer;
-            color: #f42069;
-        }
-
-        .latestVideoEmbed {
-            width: 90%;
         }
 
         #sitegrid {
@@ -301,12 +250,13 @@
             padding: 10%;
             padding-top: 50px;
             overflow: hidden;
+            
         }
 
         #sitegrid div {
             transition: transform .15s;
             border-radius: 13px;
-            background: #1f1f1f
+            background: #1f1f1f;
         }
 
         #sitegrid div a:link {
@@ -319,16 +269,59 @@
             border-radius: 13px
         }
 
+        #codeblock {
+            font-family: "Consolas";
+            font-weight: 278;
+            border: 1px solid rgb(0, 0, 0);
+            background-color: #161616;
+            text-align: left;
+            color: rgb(167, 167, 167);
+            margin: 5px;
+            padding: 20px;
+            line-height: 25px;
+            tab-size: 8;
+            border-radius: 10px;
+            height: 100%;
+        }
+
+        .red {
+            background-color: #67060C;
+            color: #FFDCD7;
+        }
+
+        .orange {
+            background-color: #5a1e02;
+            color: #ffdfb6;
+        }
+
+        .green {
+            background-color: #033a16;
+            color: #aff5b4;
+        }
+
+        .blue {
+            background-color: #03163a;
+            color: #b4aff5;
+        }
+
         #text h1 {
             color: #ffffff;
-            font-family: "Open Sans";
-            font-size: 2.5fr;
+            font-family: "Roboto";
+        }
+
+        #text a {
+            transition: .15s;
+        }
+
+        #text a:hover {
+            transition: .15s;
+            color: #f42069;
+            cursor:pointer;
         }
 
         #text h2 {
             color: #ffffff;
             font-family: "Open Sans";
-            font-size: 2fr;
         }
 
         #unicode-copy {
@@ -432,6 +425,7 @@
 
         #text{
             overflow: hidden;
+            height:fit-content;
         }
 
         #text a {
@@ -482,7 +476,7 @@
 
 <body>
     <div id=titlebar>
-        <h1 id=title>hummusbird</h1>
+        <h1 class=fadein id=title>hummusbird</h1>
         <h2 id=slash>/</h2>
 
         <figure>
@@ -498,7 +492,7 @@
         <div class=grid-titlebar id=social>
             <div class=grid-item>
                 <a href="https://steamcommunity.com/id/hummusbirb">
-                    <div>
+                    <div class="fadein">
                         <span style="font-size: 4em; color: #ffffff;">
                             <i class="fab fa-steam"></i>
                         </span>
@@ -507,7 +501,7 @@
             </div>
             <div class=grid-item>
                 <a href="https://www.instagram.com/hummusbirb/">
-                    <div>
+                    <div class="fadein">
                         <span style="font-size: 4em; color: #ffffff;">
                             <i class="fab fa-instagram"></i>
                         </span>
@@ -516,7 +510,7 @@
             </div>
             <div class=grid-item>
                 <a href="https://twitter.com/hummusbirb">
-                    <div>
+                    <div class="fadein">
                         <span style="font-size: 4em; color: #ffffff;">
                             <i class="fab fa-twitter"></i>
                         </span>
@@ -525,7 +519,7 @@
             </div>
             <div class=grid-item>
                 <a href=https://www.github.com/hummusbird>
-                    <div>
+                    <div class="fadein">
                         <span style="font-size: 4em; color: #ffffff;">
                             <i class="fab fa-github"></i>
                         </span>
@@ -534,7 +528,7 @@
             </div>
             <div class=grid-item>
                 <a href=https://www.discordapp.com/users/375671695240855553>
-                    <div>
+                    <div class="fadein">
                         <span style="font-size: 4em; color: #ffffff;">
                             <i class="fab fa-discord"></i>
                         </span>
@@ -544,10 +538,19 @@
             
         </div>
 
-        <button id="morebutton" onclick="moreButton();">v</button>
+        <button class="bgbutton fadein" id="morebutton" onclick="moreButton();">
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
 
-        <button id="pause" onclick="pausebg();">PAUSE</button>
-        <button id="mute" onclick="mutebg();">MUTE</button>
+        <button class="bgbutton fadein" id="pause" onclick="pausebg();">
+            <i id=pauseicon class="fa-solid fa-pause"></i>
+            <i style="display: none;" id = playicon class="fa-solid fa-play"></i>
+        </button>
+        
+        <button class="bgbutton fadein" id="mute" onclick="mutebg();">
+            <i id=muteicon class="fa-solid fa-volume-xmark"></i>
+            <i style="display: none;" id = fullicon class="fa-solid fa-volume-high"></i>
+        </button>
 
     </div>
 
@@ -555,7 +558,28 @@
     <div class="grid-container" id="sitegrid">
 
         <div id="text" class="grid-item">
-            <h1>Latest Video</h1>
+            <h1>About</h1>
+            <p id=codeblock>
+                <span class = red>- i'm hummusbird. 18, living in the UK᲼</span>
+                <br>
+                <span class = orange>! i've got a few domains:᲼</span>
+                <br>
+                {<br>
+                    &emsp;&emsp;&emsp;&emsp;birb.cc<br>
+                    &emsp;&emsp;&emsp;&emsp;hummusbird.co.uk<br>
+                    &emsp;&emsp;&emsp;&emsp;counterstrike.trade<br>
+                }<br>
+                <span class = green>+ currently studying computer science @ a-level᲼</span>
+                <br>
+                <span class = green>+ looking for cybersecurity degree apprenticeships᲼</span>  
+                <br><br>
+                <span class = blue>~ i write C# & JS, and like to mess around with enterprise hardware᲼</span>
+            
+            </p>
+        </div>
+
+        <div id="text" class="grid-item">
+            <h1><a href = "https://youtube.com/c/hummusbird">Latest Video</a></h1>
             <iframe class="latestVideoEmbed" vnum='0' cid="UCLWZz9da1OEVtbEvYE95Zjw" width="600" height="340" frameborder="0" allowfullscreen></iframe>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
             <script>
@@ -579,7 +603,7 @@
         </div>
 
         <div id="text" class="grid-item">
-            <h1>Projects</h1>
+            <h1><a href="/projects">Projects</a></h1>
             <div class=grid-container id=imggrid>
 
                 <div class=grid-item>
@@ -607,7 +631,7 @@
 
         <div id="text" class="grid-item">
 
-            <h1>Unicode Characters</h1>
+            <h1>Unicode</h1>
 
             <div class="grid-container" id="unicode-copy">
                 <div class="grid-item">
@@ -679,9 +703,13 @@
 
         </div>
 
-        <div id=text class="grid-item">
+        <!-- <div id=text class="grid-item">
             <h1>Servers</h1>
-
+            # Under maintenence.
+            # TODO:
+            # Remove all CS:GO servers
+            # Add mc.birb.cc & hugh mc
+            # Add imghost API
             <div class=grid-container id=serverGrid>
 
                 <div class=grid-item onclick = "window.location.href='https://github.com/R2Northstar'">
@@ -719,7 +747,7 @@
                 serverstatus("dm");
             </script>
 
-        </div>
+        </div> -->
 
         <div id=text class="grid-item">
             <h1>Crypto</h1>
@@ -768,7 +796,7 @@
         </div>
         
         <div id="text" class="grid-item">
-            <h1>CS:GO Maps</h1>
+            <h1><a href = "https://steamcommunity.com/id/hummusbirb/myworkshopfiles/">CS:GO Maps</a></h1>
             <div class=grid-container id=imggrid>
 
                 <div class=grid-item>
@@ -795,7 +823,7 @@
         </div>
 
         <div id="text" class="grid-item">
-            <h1>Playlists</h1>
+            <h1><a href = "/playlists">Playlists</a></h1>
             <div class=grid-container id=serverGrid>
 
                 <div class=grid-item onclick = "window.location.href='/playlists/playlist_01.xml'">

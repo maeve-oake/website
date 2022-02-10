@@ -46,31 +46,41 @@ function addCommas(x) {
 
 function mutebg() {
 	video = document.getElementById("1975vid")
-	btn = document.getElementById("mute")
-
-	video.muted = !video.muted;
+	muteicon = document.getElementById("muteicon")
+	fullicon = document.getElementById("fullicon")
+	if (video.muted) {
+		video.muted = false;
+		muteicon.style.display = "none"
+		fullicon.style.display = "initial"
+	} else {
+		video.muted = true;
+		muteicon.style.display = "initial"
+		fullicon.style.display = "none"
+	}
 }
 
 function pausebg() {
 	video = document.getElementById("1975vid")
 	btn = document.getElementById("pause")
+	playicon = document.getElementById("playicon")
+	pauseicon = document.getElementById("pauseicon")
 	if (video.paused) {
 		video.play();
-		btn.innerHTML = "PAUSE";
+		playicon.style.display = "none"
+		pauseicon.style.display = "initial"
 	} else {
 		video.pause();
-		btn.innerHTML = "PLAY";
+		playicon.style.display = "initial"
+		pauseicon.style.display = "none"
 	}
 }
 
 function moreButton() {
 	document.getElementById("titlebar").classList.add('shrink');
-	document.getElementById("slash").classList.add('shift')
 	document.getElementById("morebutton").style.animationDelay = ("0s")
-	document.getElementById("morebutton").style.animationName = ("morebutton_hide")
+	document.getElementById("morebutton").style.animationName = ("title_fadeout")
 
 	document.body.style.overflow = "auto"
-
 }
 
 async function serverstatus(id) {
@@ -147,9 +157,6 @@ async function cryptoprices(currency) {
 		document.getElementById("ethRate").innerHTML = (sign + addCommas(parsed.ethereum[currency]) + " " + currency.toUpperCase())
 		document.getElementById("dogeRate").innerHTML = (sign + parsed.dogecoin[currency] + " " + currency.toUpperCase())
 		document.getElementById("rvnRate").innerHTML = (sign + parsed.ravencoin[currency] + " " + currency.toUpperCase())
-
-
-
 	}
 
 }
