@@ -165,10 +165,13 @@ async function cryptomarquee() {
 	let res = await fetch("https://api.coingecko.com/api/v3/status_updates")
 	let parsed = await res.json()
 	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object) {
-		document.getElementById("marquee").style.display = ("none");
+		
 	}
 	else {
 		document.getElementById("marqueetext").innerHTML = (parsed.status_updates[0].description.replace(/"/g, "") + "\t" + parsed.status_updates[1].description.replace(/"/g, "") + "\t" + parsed.status_updates[2].description.replace(/"/g, ""))
 	}
+}
 
+function age(){
+	document.getElementById("age").innerHTML = new Date().getFullYear() -2004;
 }
