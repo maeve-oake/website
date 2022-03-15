@@ -22,8 +22,10 @@
             color: white;
         }
 
-        #contact h2 a:link {
+        #contact h2 a:link, a:visited {
+            
             color: white;
+            text-decoration: underline !important;
 
         }
 
@@ -32,8 +34,7 @@
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 50px;
             align-content: center;
-            padding: 10%;
-            padding-top: 0;
+            padding: 50px 10% 0 10%;
         }
 
         #sitegrid div {
@@ -50,48 +51,58 @@
             transform: scale(1.03);
         }
 
-
+        footer{
+            padding: 50px 0;
+            height: 50px;
+            text-align: center;
+            font-family: consolas;
+            color: white;
+        }
+        
     </style>
 
 </head>
 
 <body>
-    <div id = contact>
-        <h2>If you wish to use any of these, please <a href="https://twitter.com/hummusbirb">contact me.</a></h2>
-    </div>
     <div class="grid-container" id="sitegrid">
 
         <div class="grid-item">
             <a href="0001.png">
-                <img src="0001.png">
+                <img src="0001.jpg">
             </a>
         </div>
 
         <div class="grid-item">
             <a href="0002.png">
-                <img src="0002.png">
+                <img src="0002.jpg">
             </a>
         </div>
 
         <div class="grid-item">
             <a href="0003.png">
-                <img src="0003.png">
+                <img src="0003.jpg">
             </a>
         </div>
 
         <div class="grid-item">
             <a href="0004.png">
-                <img src="0004.png">
+                <img src="0004.jpg">
             </a>
         </div>
 
         <div class="grid-item">
             <a href="0005.png">
-                <img src="0005.png">
+                <img src="0005.jpg">
             </a>
         </div>
 
+    </div>
+</body>
 
+<footer>
+    <div id = contact>
+        <h2>If you wish to use any of these, please <a href="https://twitter.com/hummusbirb">contact me.</a></h2>
     </div>
 
-</body>
+    hummusbird © 2022
+</footer>
