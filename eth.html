@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <script src="index.js"></script>
+    <meta charset="utf-8">
+    <title>eth</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <style>
+        #toast {
+            font-family: consolas;
+            visibility: hidden;
+            min-width: 200px;
+            margin-left: -125px;
+            background-color: #f42069;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 20px;
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        body {
+            background: #262626;
+        }
+
+        #rect {
+            color: white;
+            font-family: consolas;
+            background-color: #131313;
+            margin: auto;
+            margin-top: 40vh;
+            width: 40%;
+            padding: 20px;
+            border-radius: 15px;
+            height: fit-content;
+        }
+    
+        #rect p:hover {
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id=rect>
+        <h2>ethereum</h2>
+        <p onclick="copyToClipboard('0x946aE9177657875aFB6cD7FF6F2423F50c08075D')">
+            0x946aE9177657875aFB6cD7FF6F2423F50c08075D
+        <p>
+
+        <h2>bitcoin</h2>
+        <p onclick="copyToClipboard('bc1qkch8elwd6xltsq5uep403ea44vfe5phqfy5vux')">
+            bc1qkch8elwd6xltsq5uep403ea44vfe5phqfy5vux
+        <p>
+    </div>
+
+    <div id="toast"></div>
+
+</body>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>artwork</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
 
     <style>
 
@@ -27,8 +27,27 @@
 
         }
 
-        #art {
-            width: 500px;
+        #sitegrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 50px;
+            align-content: center;
+            padding: 10%;
+            padding-top: 0;
+        }
+
+        #sitegrid div {
+            transition: transform .15s;
+            background: #1f1f1f;
+        }
+
+        #sitegrid div img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #sitegrid div:hover {
+            transform: scale(1.03);
         }
 
 
@@ -38,9 +57,41 @@
 
 <body>
     <div id = contact>
-        <h2>If you wish to use any of these, please <a href="balls">contact me.</a></h2>
+        <h2>If you wish to use any of these, please <a href="https://twitter.com/hummusbirb">contact me.</a></h2>
     </div>
-    <img id="art" src=0001.png>
-    <img id="art" src=0002.png>
-    <img id="art" src=0003.png>
+    <div class="grid-container" id="sitegrid">
+
+        <div class="grid-item">
+            <a href="0001.png">
+                <img src="0001.png">
+            </a>
+        </div>
+
+        <div class="grid-item">
+            <a href="0002.png">
+                <img src="0002.png">
+            </a>
+        </div>
+
+        <div class="grid-item">
+            <a href="0003.png">
+                <img src="0003.png">
+            </a>
+        </div>
+
+        <div class="grid-item">
+            <a href="0004.png">
+                <img src="0004.png">
+            </a>
+        </div>
+
+        <div class="grid-item">
+            <a href="0005.png">
+                <img src="0005.png">
+            </a>
+        </div>
+
+
+    </div>
+
 </body>
