@@ -250,7 +250,6 @@
             padding: 10%;
             padding-top: 50px;
             overflow: hidden;
-            
         }
 
         #sitegrid div {
@@ -270,7 +269,7 @@
         }
 
         #codeblock {
-            font-family: "Consolas";
+            font-family: "Consolas","Lucida Console",monospace;
             font-weight: 278;
             border: 1px solid rgb(0, 0, 0);
             background-color: #161616;
@@ -372,6 +371,10 @@
             transform: scale(1.03);
         }
 
+        iframe {
+            margin-bottom: 20px;
+        }
+
         #crypto {
             display: none;
             grid-template-columns: 1fr 1fr;
@@ -434,17 +437,6 @@
             font-family: "Roboto";
             text-decoration: none !important;
         }
-
-        #marquee marquee {
-            font-size: 1.5em;
-            background-color: #f42069;
-            color: #ffffff;
-            width: 100%;
-            height: 100%;
-            margin: 0px 0px 20px 0px;
-            padding: 10px;
-            user-select: none;
-        } 
 
         #serverGrid{
             display: grid;
@@ -706,58 +698,8 @@
 
         </div>
 
-        <!-- <div id=text class="grid-item">
-            <h1>Servers</h1>
-            # Under maintenence.
-            # TODO:
-            # Remove all CS:GO servers
-            # Add mc.birb.cc & hugh mc
-            # Add imghost API
-            <div class=grid-container id=serverGrid>
-
-                <div class=grid-item onclick = "window.location.href='https://github.com/R2Northstar'">
-                    <p id = nsname>Northstar servers</p>
-                    <h1 id = nsplayers class = title>Offline</h1>
-                    <h1 id = nsmap class = subtitle>Offline</h1>
-                </div>
-
-                <div class=grid-item onclick = "window.location.href='steam://connect/cs.hummusbird.co.uk:27015'">
-                    <p id = csname >cs.hummusbird.co.uk</p>
-                    <h1 id = csplayers class = title>Offline</h1>
-                    <h1 id = csmap class = subtitle>Offline</h1>
-                    
-                </div>
-
-                <div class=grid-item onclick = "window.location.href='steam://connect/cs.birb.cc:27016'">
-                    <p id = cssname>cs.birb.cc</p>
-                    <h1 id = cssplayers class = title>Offline</h1>
-                    <h1 id = cssmap class = subtitle>Offline</h1>
-                    
-                </div>
-
-                <div class=grid-item onclick = "window.location.href='steam://connect/cs.hughtb.com'">
-                    <p id = dmname>cs.hughtb.com</p>
-                    <h1 id = dmplayers class = title>Offline</h1>
-                    <h1 id = dmmap class = subtitle>Offline</h1>
-                </div>
-
-            </div>
-
-            <script>
-                serverstatus("ns");
-                serverstatus("cs");
-                serverstatus("css");
-                serverstatus("dm");
-            </script>
-
-        </div> -->
-
         <div id=text class="grid-item">
             <h1>Crypto</h1>
-
-            <div id=marquee>
-                <marquee id=marqueetext></marquee>
-            </div>
 
             <div class=grid-container id=crypto>
 
@@ -772,13 +714,23 @@
                 </div>
 
                 <div class=grid-item>
+                    <p>1 Eth Classic equals</p>
+                    <h1 id = etcRate></h1>
+                </div>
+
+                <div class=grid-item>
                     <p>1 Dogecoin equals</p>
                     <h1 id = dogeRate></h1>
                 </div>
 
                 <div class=grid-item>
-                    <p>1 Ravencoin equals</p>
+                    <p>1 Raven equals</p>
                     <h1 id = rvnRate></h1>
+                </div>
+
+                <div class=grid-item>
+                    <p>1 Solana equals</p>
+                    <h1 id = solRate></h1>
                 </div>
             </div>
 
@@ -794,7 +746,6 @@
 
             <script>
                 cryptoprices("usd");
-                cryptomarquee();
             </script>
         </div>
         
@@ -824,33 +775,9 @@
                 </div>
             </div>
         </div>
-
-        <div id="text" class="grid-item">
-            <h1><a href = "/playlists">Playlists</a></h1>
-            <div class=grid-container id=serverGrid>
-
-                <div class=grid-item onclick = "window.location.href='/playlists/playlist_01.xml'">
-                    <p>playlist_01</p>
-                    <h1 class = title>59 songs</h1>
-                    <h1 class = subtitle>Download XML</h1>
-                </div>
-                <div class=grid-item onclick = "window.location.href='/playlists/playlist_02.xml'">
-                    <p>playlist_02</p>
-                    <h1 class = title>26 songs</h1>
-                    <h1 class = subtitle>Download XML</h1>
-                </div>
-                <div class=grid-item onclick = "window.location.href='/playlists/playlist_03.xml'">
-                    <p>playlist_03</p>
-                    <h1 class = title>22 songs</h1>
-                    <h1 class = subtitle>Download XML</h1>
-                </div>
-            </div>
-        </div>
-    
     </div>
 
     <div id="toast"></div>
-
 </body>
 
 </html>
