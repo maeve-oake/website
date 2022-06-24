@@ -265,7 +265,7 @@ figure video {
     line-height: 25px;
     tab-size: 8;
     border-radius: 10px;
-    height: 100%;
+    height: calc(100% - 123px);
 }
 
 .red {
@@ -413,7 +413,6 @@ iframe {
 
 #text{
     overflow: hidden;
-    height:500px;
 }
 
 #text a {
