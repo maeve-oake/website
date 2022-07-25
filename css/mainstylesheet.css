@@ -1,3 +1,4 @@
+
 ::selection {
     background: #44ffb18c;
 }
@@ -125,7 +126,9 @@ body {
     gap: 0% 6%;
     justify-content: center;
 }
-
+#latestVideoEmbed{
+    border: 0;
+}
 #social a div {
     transition: .2s;
     height: 70px;
@@ -288,22 +291,22 @@ figure video {
     color: #b4aff5;
 }
 
-#text h1 {
+.text h1 {
     color: #ffffff;
     font-family: "Roboto";
 }
 
-#text a {
+.text a {
     transition: .15s;
 }
 
-#text a:hover {
+.text a:hover {
     transition: .15s;
     color: #f42069;
     cursor:pointer;
 }
 
-#text h2 {
+.text h2 {
     color: #ffffff;
     font-family: "Open Sans";
 }
@@ -337,7 +340,7 @@ figure video {
 }
 
 
-#imggrid {
+.imggrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -345,14 +348,13 @@ figure video {
     padding: 0% 5% 5% 5%;
 }
 
-#imggrid div {
+.imggrid div {
     transition: transform .15s;
     color: #ffffff;
     background-color: #161616;
-    height: 1fr
 }
 
-#imggrid div:hover {
+.imggrid div:hover {
     transform: scale(1.03);
 }
 
@@ -371,7 +373,6 @@ iframe {
 #crypto div {
     color: #b6b6b6;
     background-color: #161616;
-    height: 1fr;
     padding-left: 15px;
     text-align: left;
 }
@@ -408,15 +409,15 @@ iframe {
 
 #apierror h1 {
     color: #f42069;
-    font-size: 2fr;
+    font-size: 2rem;
 }
 
-#text{
+.text{
     overflow: hidden;
 }
 
-#text a {
-    font-size: 2fr;
+.text a {
+    font-size: 2rem;
     color: #ffffff;
     font-family: "Roboto";
     text-decoration: none !important;
@@ -445,4 +446,3 @@ iframe {
 
 #serverGrid div:hover .title { display:none }        
 #serverGrid div .subtitle { display:none }
-#serverGrid div:hover .subtitle { display:block }
