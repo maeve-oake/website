@@ -20,7 +20,7 @@
 
         <figure>
             <video autoplay muted loop id="1975vid">
-                <source id="1975src" type="video/mp4">
+                <source id="1975src" type="video/mp4" src="./mp4/frailstateofmind.mp4">
             </video>
         </figure>
 
@@ -96,7 +96,7 @@
 
     <div class="grid-container" id="sitegrid">
 
-        <div id="text" class="grid-item">
+        <div  class="grid-item text">
             <h1>About</h1>
             <p id=codeblock>
                 <span class = red>- i'm hummusbird. </span><span class=red id = age></span><span class=red>, living in the UK&emsp;</span>
@@ -120,9 +120,9 @@
             </script>
         </div>
 
-        <div id="text" class="grid-item">
+        <div  class="grid-item text">
             <h1><a href = "https://youtube.com/c/hummusbird">Latest Video</a></h1>
-            <iframe class="latestVideoEmbed" vnum='0' cid="UCLWZz9da1OEVtbEvYE95Zjw" width="625" height="352" frameborder="0" allowfullscreen></iframe>
+            <iframe id="latestVideoEmbed" width="625" height="352" allowfullscreen></iframe>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
             <script>
                 var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
@@ -137,41 +137,41 @@
                     }
                 );
                 }
-                var iframes = document.getElementsByClassName('latestVideoEmbed');
+                var iframes = document.getElementsById('latestVideoEmbed');
                 for (var i = 0, len = iframes.length; i < len; i++) {
                 loadVideo(iframes[i]);
                 }
             </script>
         </div>
 
-        <div id="text" class="grid-item">
+        <div class="grid-item, text">
             <h1>Projects</h1>
-            <div class=grid-container id=imggrid>
+            <div class="grid-container imggrid">
 
                 <div class=grid-item>
                     <a href="/projects/matrix/">
-                        <img src="images/matrix.png">
+                        <img src="images/matrix.png" alt="matrix raingen">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="/projects/img/">
-                        <img src="images/img.png">
+                        <img src="images/img.png" alt="img.birb.cc">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="/projects/powercord-crypto/">
-                        <img src="images/pc-crypto.png">
+                        <img src="images/pc-crypto.png" alt="pc-crypto">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="/projects/clapped/">
-                        <img src="images/clapped.png">
+                        <img src="images/clapped.png" alt="clapped discord modbot">
                     </a>
                 </div>
             </div>
         </div>
 
-        <div id="text" class="grid-item">
+        <div class="grid-item text">
 
             <h1>Unicode</h1>
 
@@ -248,39 +248,39 @@
 
         </div>
 
-        <div id=text class="grid-item">
+        <div class="grid-item text">
             <h1>Crypto</h1>
 
             <div class=grid-container id=crypto>
 
                 <div class=grid-item>
                     <p>1 Bitcoin equals</p>
-                    <h1 id = btcRate></h1>
+                    <h1 id = btcRate>BTC</h1>
                 </div>
 
                 <div class=grid-item>
                     <p>1 Ether equals</p>
-                    <h1 id = ethRate></h1>
+                    <h1 id = ethRate>ETH</h1>
                 </div>
 
                 <div class=grid-item>
                     <p>1 Eth Classic equals</p>
-                    <h1 id = etcRate></h1>
+                    <h1 id = etcRate>ETC</h1>
                 </div>
 
                 <div class=grid-item>
                     <p>1 Dogecoin equals</p>
-                    <h1 id = dogeRate></h1>
+                    <h1 id = dogeRate>Doge</h1>
                 </div>
 
                 <div class=grid-item>
                     <p>1 Raven equals</p>
-                    <h1 id = rvnRate></h1>
+                    <h1 id = rvnRate>Raven</h1>
                 </div>
 
                 <div class=grid-item>
                     <p>1 Solana equals</p>
-                    <h1 id = solRate></h1>
+                    <h1 id = solRate>Sol</h1>
                 </div>
             </div>
 
@@ -299,28 +299,28 @@
             </script>
         </div>
         
-        <div id="text" class="grid-item">
+        <div class="grid-item text">
             <h1><a href = "https://steamcommunity.com/id/hummusbirb/myworkshopfiles/">CS:GO Maps</a></h1>
-            <div class=grid-container id=imggrid>
+            <div class="grid-container imggrid">
 
                 <div class=grid-item>
                     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2088449928">
-                        <img src="images/de_stranded.jpg">
+                        <img src="images/de_stranded.jpg" alt="de_stranded">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2063655124">
-                        <img src="images/bhop_precipitation.jpg">
+                        <img src="images/bhop_precipitation.jpg" alt="bhop_precipitation">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2275636212">
-                        <img src="images/mg_bloodybastard.png">
+                        <img src="images/mg_bloodybastard.png" alt="mg_bloodybastard">
                     </a>
                 </div>
                 <div class=grid-item>
                     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2062070916">
-                        <img src="images/bhop_bigfunny.png">
+                        <img src="images/bhop_bigfunny.png" alt="bhop_bigfunny">
                     </a>
                 </div>
             </div>
