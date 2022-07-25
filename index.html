@@ -120,7 +120,7 @@
             </script>
         </div>
 
-        <div  class="grid-item text">
+       <div class="grid-item text">
             <h1><a href = "https://youtube.com/c/hummusbird">Latest Video</a></h1>
             <iframe id="latestVideoEmbed" width="625" height="352" allowfullscreen></iframe>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -137,14 +137,15 @@
                     }
                 );
                 }
-                var iframes = document.getElementsById('latestVideoEmbed');
-                for (var i = 0, len = iframes.length; i < len; i++) {
-                loadVideo(iframes[i]);
-                }
+                var iframes = document.getElementById('latestVideoEmbed');
+                iframes.setAttribute("vnum", "0");
+                iframes.setAttribute("cid", "UCLWZz9da1OEVtbEvYE95Zjw");
+                loadVideo(iframes);
+                
             </script>
         </div>
 
-        <div class="grid-item, text">
+        <div class="grid-item text">
             <h1>Projects</h1>
             <div class="grid-container imggrid">
 
