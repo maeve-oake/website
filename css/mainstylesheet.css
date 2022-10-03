@@ -291,13 +291,21 @@ figure video {
     color: #b4aff5;
 }
 
+.text {
+    overflow: hidden;
+}
+
 .text h1 {
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: "Consolas", "Lucida Console", monospace;;
 }
 
 .text a {
+    font-size: 2rem;
+    color: #ffffff;
     transition: .15s;
+    font-family: "Consolas", "Lucida Console", monospace;;
+    text-decoration: none !important;
 }
 
 .text a:hover {
@@ -362,6 +370,18 @@ iframe {
     margin-bottom: 20px;
 }
 
+h3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: roboto;
+}
+
 #crypto {
     display: none;
     grid-template-columns: 1fr 1fr;
@@ -410,17 +430,6 @@ iframe {
 #apierror h1 {
     color: #f42069;
     font-size: 2rem;
-}
-
-.text{
-    overflow: hidden;
-}
-
-.text a {
-    font-size: 2rem;
-    color: #ffffff;
-    font-family: "Roboto";
-    text-decoration: none !important;
 }
 
 #serverGrid{
