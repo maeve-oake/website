@@ -258,7 +258,7 @@ figure video {
 }
 
 #codeblock {
-    font-family: "Consolas","Lucida Console",monospace;
+    font-family: "Menlo", "Consolas","Lucida Console",monospace;
     font-weight: 278;
     border: 1px solid rgb(0, 0, 0);
     background-color: #161616;
@@ -297,14 +297,14 @@ figure video {
 
 .text h1 {
     color: #ffffff;
-    font-family: "Consolas", "Lucida Console", monospace;;
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;;
 }
 
 .text a {
     font-size: 2rem;
     color: #ffffff;
     transition: .15s;
-    font-family: "Consolas", "Lucida Console", monospace;;
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;;
     text-decoration: none !important;
 }
 
