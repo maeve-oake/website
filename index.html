@@ -130,7 +130,6 @@
                 $.getJSON(reqURL + iframe.getAttribute('cid'),
                     function(data) {
                     var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-                    console.log(videoNumber);
                     var link = data.items[videoNumber].link;
                     id = link.substr(link.indexOf("=") + 1);
                     iframe.setAttribute("src", "https://youtube.com/embed/" + id);
@@ -247,57 +246,6 @@
                 </div>
             </div>
 
-        </div>
-
-        <div class="grid-item text">
-            <h1>crypto</h1>
-
-            <div class=grid-container id=crypto>
-
-                <div class=grid-item>
-                    <p>1 Bitcoin equals</p>
-                    <h3 id = btcRate>BTC</h3>
-                </div>
-
-                <div class=grid-item>
-                    <p>1 Ether equals</p>
-                    <h3 id = ethRate>ETH</h3>
-                </div>
-
-                <div class=grid-item>
-                    <p>1 Eth Classic equals</p>
-                    <h3 id = etcRate>ETC</h3>
-                </div>
-
-                <div class=grid-item>
-                    <p>1 Dogecoin equals</p>
-                    <h3 id = dogeRate>Doge</h3>
-                </div>
-
-                <div class=grid-item>
-                    <p>1 Raven equals</p>
-                    <h3 id = rvnRate>Raven</h3>
-                </div>
-
-                <div class=grid-item>
-                    <p>1 Solana equals</p>
-                    <h3 id = solRate>Sol</h3>
-                </div>
-            </div>
-
-            <div id=apierror>
-                <h1>API could not be reached!</h1>
-            </div>
-
-            <div id = belowCrypto>
-                <button id = switchCurrencies onclick = "cryptoprices('gbp')">USD</button>
-                <p>// prices from coingecko //</p>
-                <button id = refreshPrices onclick = "cryptoprices('usd'); toastNotif('Refreshed rates!');">refresh</button>
-            </div>
-
-            <script>
-                cryptoprices("usd");
-            </script>
         </div>
         
         <div class="grid-item text">

@@ -83,42 +83,6 @@ function moreButton() {
 	document.body.style.overflow = "auto"
 }
 
-async function cryptoprices(currency) {
-	let res = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CEthereum%2CEthereum-Classic%2CRavencoin%2CDogecoin%2C%2CSolana&vs_currencies=USD%2CGBP")
-	let parsed = await res.json()
-	if (parsed && Object.keys(parsed).length === 0 && parsed.constructor === Object) {
-		document.getElementById("apierror").style.display = ("initial");
-		document.getElementById("crypto").style.display = ("none");
-	}
-	else {
-		var sign = ""
-
-		document.getElementById("apierror").style.display = ("none")
-		document.getElementById("crypto").style.display = ("grid");
-
-		if (currency == "gbp") {
-			sign = "£"
-			document.getElementById("refreshPrices").setAttribute("onclick", "cryptoprices('gbp'); toastNotif('Refreshed rates!');")
-			document.getElementById("switchCurrencies").innerHTML = ("GBP")
-			document.getElementById("switchCurrencies").setAttribute("onclick", "cryptoprices('usd')")
-		}
-		else {
-			sign = "$"
-			document.getElementById("refreshPrices").setAttribute("onclick", "cryptoprices('usd'); toastNotif('Refreshed rates!');")
-			document.getElementById("switchCurrencies").innerHTML = ("USD")
-			document.getElementById("switchCurrencies").setAttribute("onclick", "cryptoprices('gbp')")
-		}
-
-		document.getElementById("btcRate").innerHTML = (sign + addCommas(parsed.bitcoin[currency]) + " " + currency.toUpperCase())
-		document.getElementById("ethRate").innerHTML = (sign + addCommas(parsed.ethereum[currency]) + " " + currency.toUpperCase())
-		document.getElementById("etcRate").innerHTML = (sign + addCommas(parsed["ethereum-classic"][currency]) + " " + currency.toUpperCase())
-		document.getElementById("dogeRate").innerHTML = (sign + parsed.dogecoin[currency] + " " + currency.toUpperCase())
-		document.getElementById("rvnRate").innerHTML = (sign + parsed.ravencoin[currency] + " " + currency.toUpperCase())
-		document.getElementById("solRate").innerHTML = (sign + parsed.solana[currency] + " " + currency.toUpperCase())
-	}
-
-}
-
 function age(){
 	document.getElementById("age").innerHTML = new Date().getFullYear() - 2004;
 }
