@@ -74,7 +74,7 @@
                     </div>
                 </a>
             </div>
-            
+
         </div>
 
         <button class="bgbutton fadein" id="morebutton" onclick="moreButton();">
@@ -83,12 +83,12 @@
 
         <button class="bgbutton fadein" id="pause" onclick="pausebg();">
             <i id=pauseicon class="fa-solid fa-pause"></i>
-            <i style="display: none;" id = playicon class="fa-solid fa-play"></i>
+            <i style="display: none;" id=playicon class="fa-solid fa-play"></i>
         </button>
-        
+
         <button class="bgbutton fadein" id="mute" onclick="mutebg();">
             <i id=muteicon class="fa-solid fa-volume-xmark"></i>
-            <i style="display: none;" id = fullicon class="fa-solid fa-volume-high"></i>
+            <i style="display: none;" id=fullicon class="fa-solid fa-volume-high"></i>
         </button>
 
     </div>
@@ -96,51 +96,113 @@
 
     <div class="grid-container" id="sitegrid">
 
-        <div  class="grid-item text">
+        <div class="grid-item text">
             <h1>readme</h1>
             <p id=codeblock>
-                <span class = red>- i'm hummusbird. </span><span class=red id = age></span><span class=red>, living in the UK&emsp;</span>
+                <span class=red>- i'm hummusbird. </span><span class=red id=age></span><span class=red>, living in the
+                    UK&emsp;</span>
                 <br>
-                <span class = orange>! i've got a few domains:&emsp;</span>
+                <span class=orange>! i've got a few domains:&emsp;</span>
                 <br>
                 {<br>
-                    &emsp;&emsp;&emsp;&emsp;birb.cc<br>
-                    &emsp;&emsp;&emsp;&emsp;hummusbird.co.uk<br>
-                    &emsp;&emsp;&emsp;&emsp;counterstrike.trade<br>
+                &emsp;&emsp;&emsp;&emsp;birb.cc<br>
+                &emsp;&emsp;&emsp;&emsp;hummusbird.co.uk<br>
+                &emsp;&emsp;&emsp;&emsp;counterstrike.trade<br>
                 }<br>
-                <span class = green>+ currently a desktop & systems support technician&emsp;</span>
+                <span class=green>+ currently a desktop & systems support technician&emsp;</span>
                 <br>
-                <span class = green>+ looking for cybersecurity degree apprenticeships&emsp;</span>  
+                <span class=green>+ looking for cybersecurity degree apprenticeships&emsp;</span>
                 <br><br>
-                <span class = blue>~ i write C# & JS, and like to mess around with enterprise hardware&emsp;</span>
-            
+                <span class=blue>~ i write C# & JS, and like to mess around with enterprise hardware&emsp;</span>
             </p>
+
             <script>
                 age();
             </script>
         </div>
 
-       <div class="grid-item text">
-            <h1><a href = "https://youtube.com/c/hummusbird">latest video</a></h1>
+        <div class="grid-item text">
+            <h1>hardware</h1>
+            <div id="codeblock-container">
+                <p id=codeblock>
+                    <span class=blue-text>hummusbird</span>@<span class=blue-text>abiior</span>
+                    <br>
+                    <span>-----------------</span>
+                    <br>
+                    <span class=blue-text>OS</span>: Arch Linux
+                    <br>
+                    <span class=blue-text>Host</span>: Latitude 5400
+                    <br>
+                    <span class=blue-text>Shell</span>: fish
+                    <br>
+                    <span class=blue-text>Resolution</span>: 1920x1080
+                    <br>
+                    <span class=blue-text>WM</span>: i3
+                    <br>
+                    <span class=blue-text>Terminal</span>: urxvt
+                    <br>
+                    <span class=blue-text>Terminal Font</span>: hack
+                    <br>
+                    <span class=blue-text>CPU</span>: i5-8265U @ 3.9GHz
+                    <br>
+                    <span class=blue-text>Memory</span>: 0.78GiB / 31.20GiB
+                    <br>
+                    <span class=blue-text>CPU Usage</span>: 1%
+                    <br>
+                    <span class=blue-text>Locale</span>: en_GB.UTF-8
+                </p>
+
+                <p id=codeblock>
+                    <span class=blue-text>hummusbird</span>@<span class=blue-text>reflektor</span>
+                    <br>
+                    <span>-----------------</span>
+                    <br>
+                    <span class=blue-text>OS</span>: Arch Linux
+                    <br>
+                    <span class=blue-text>Shell</span>: fish
+                    <br>
+                    <span class=blue-text>Resolution</span>: 1920x1080, 1080x1920
+                    <br>
+                    <span class=blue-text>WM</span>: KWin
+                    <br>
+                    <span class=blue-text>Terminal</span>: urxvt
+                    <br>
+                    <span class=blue-text>Terminal Font</span>: hack
+                    <br>
+                    <span class=blue-text>CPU</span>: Ryzen 7 2700x @ 4GHz
+                    <br>
+                    <span class=blue-text>GPU</span>: GeForce GTX 1080
+                    <br>
+                    <span class=blue-text>Memory</span>: 0.41GiB / 31.28GiB
+                    <br>
+                    <span class=blue-text>CPU Usage</span>: 1%
+                    <br>
+                    <span class=blue-text>Locale</span>: en_GB.UTF-8
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-item text">
+            <h1><a href="https://youtube.com/c/hummusbird">latest video</a></h1>
             <iframe id="latestVideoEmbed" width="625" height="352" allowfullscreen></iframe>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
             <script>
                 var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
                 function loadVideo(iframe) {
-                $.getJSON(reqURL + iframe.getAttribute('cid'),
-                    function(data) {
-                    var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-                    var link = data.items[videoNumber].link;
-                    id = link.substr(link.indexOf("=") + 1);
-                    iframe.setAttribute("src", "https://youtube.com/embed/" + id);
-                    }
-                );
+                    $.getJSON(reqURL + iframe.getAttribute('cid'),
+                        function (data) {
+                            var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
+                            var link = data.items[videoNumber].link;
+                            id = link.substr(link.indexOf("=") + 1);
+                            iframe.setAttribute("src", "https://youtube.com/embed/" + id);
+                        }
+                    );
                 }
                 var iframes = document.getElementById('latestVideoEmbed');
                 iframes.setAttribute("vnum", "0");
                 iframes.setAttribute("cid", "UCLWZz9da1OEVtbEvYE95Zjw");
                 loadVideo(iframes);
-                
+
             </script>
         </div>
 
@@ -247,9 +309,9 @@
             </div>
 
         </div>
-        
+
         <div class="grid-item text">
-            <h1><a href = "https://steamcommunity.com/id/hummusbirb/myworkshopfiles/">cs maps</a></h1>
+            <h1><a href="https://steamcommunity.com/id/hummusbirb/myworkshopfiles/">cs maps</a></h1>
             <div class="grid-container imggrid">
 
                 <div class=grid-item>

@@ -258,6 +258,17 @@ figure video {
     border-radius: 13px
 }
 
+#codeblock-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+#codeblock-container p {
+    width: 100%;
+    height: 100%;
+}
+
 #codeblock {
     font-family: "Menlo", "Consolas", "Lucida Console", monospace;
     font-weight: 278;
@@ -266,10 +277,11 @@ figure video {
     text-align: left;
     color: rgb(167, 167, 167);
     padding: 20px;
+    margin: 0;
     line-height: 25px;
     tab-size: 8;
     border-radius: 10px;
-    height: calc(100% - 123px);
+    height: calc(100% - 129px);
 }
 
 .red {
@@ -290,6 +302,10 @@ figure video {
 .blue {
     background-color: #03163a;
     color: #b4aff5;
+}
+
+.blue-text {
+    color: cyan;
 }
 
 .text {
