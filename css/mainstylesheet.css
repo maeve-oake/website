@@ -281,6 +281,7 @@ figure video {
     line-height: 25px;
     tab-size: 8;
     border-radius: 10px;
+    white-space: nowrap;
     height: calc(100% - 129px);
 }
 
