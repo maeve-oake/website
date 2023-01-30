@@ -1,4 +1,3 @@
-
 ::selection {
     background: #44ffb18c;
 }
@@ -126,9 +125,11 @@ body {
     gap: 0% 6%;
     justify-content: center;
 }
-#latestVideoEmbed{
+
+#latestVideoEmbed {
     border: 0;
 }
+
 #social a div {
     transition: .2s;
     height: 70px;
@@ -150,7 +151,7 @@ body {
     border: none !important;
     outline: none;
     cursor: pointer;
-    
+
 }
 
 figure video {
@@ -183,12 +184,12 @@ figure video {
 
 #pause {
     animation-delay: 2s;
-    right:0;
+    right: 0;
 }
 
 #mute {
     animation-delay: 2s;
-    left:0;
+    left: 0;
 }
 
 #morebutton {
@@ -258,7 +259,7 @@ figure video {
 }
 
 #codeblock {
-    font-family: "Menlo", "Consolas","Lucida Console",monospace;
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;
     font-weight: 278;
     border: 1px solid rgb(0, 0, 0);
     background-color: #161616;
@@ -297,21 +298,21 @@ figure video {
 
 .text h1 {
     color: #ffffff;
-    font-family: "Menlo", "Consolas", "Lucida Console", monospace;;
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;
 }
 
 .text a {
     font-size: 2rem;
     color: #ffffff;
     transition: .15s;
-    font-family: "Menlo", "Consolas", "Lucida Console", monospace;;
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;
     text-decoration: none !important;
 }
 
 .text a:hover {
     transition: .15s;
     color: #f42069;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .text h2 {
@@ -397,7 +398,7 @@ h3 {
     text-align: left;
 }
 
-#belowCrypto button{
+#belowCrypto button {
     border: none;
     color: #b6b6b6;
     margin: 10px 0px 10px 0px;
@@ -408,20 +409,20 @@ h3 {
     align-self: left;
 }
 
-#belowCrypto button:hover{
+#belowCrypto button:hover {
     background-color: #f42069;
     color: #ffffff;
     cursor: pointer;
 }
 
-#belowCrypto p{
-    display:inline-block;
+#belowCrypto p {
+    display: inline-block;
     color: #b6b6b6;
     font-size: 13px;
     text-align: left;
 }
 
-#underline{
+#underline {
     background-color: #f42069;
     width: auto;
     padding: 0.5px
@@ -432,7 +433,7 @@ h3 {
     font-size: 2rem;
 }
 
-#serverGrid{
+#serverGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -440,18 +441,23 @@ h3 {
     padding: 0% 5% 5% 5%;
 }
 
-#serverGrid div{
+#serverGrid div {
     background-color: #161616;
     color: #b6b6b6;
     transition: .15s;
     overflow: hidden;
 }
 
-#serverGrid div:hover{
+#serverGrid div:hover {
     background-color: #f42069;
     cursor: pointer;
     color: #ffffff;
 }
 
-#serverGrid div:hover .title { display:none }        
-#serverGrid div .subtitle { display:none }
+#serverGrid div:hover .title {
+    display: none
+}
+
+#serverGrid div .subtitle {
+    display: none
+}
