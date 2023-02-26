@@ -1,2 +1,2 @@
-# birb.cc/hummusbird.co.uk
+# birb.cc / simplified
 
