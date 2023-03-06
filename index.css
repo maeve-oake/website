@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    border: white;
+    color: white;
+    overflow-x: hidden;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Consolas";
+}
+
+.top {
+    top: 50%;
+}
+
+.center {
+    position: fixed;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#main {
+    width: 0%;
+    height: 0%;
+    border: 3px solid;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h3 {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 25px 0 !important;
+    width: 100%;
+}
+
+
+h1,
+h2 {
+    margin-bottom: 0px !important;
+}
+
+p {
+    margin-top: 0px !important;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    margin: 20px;
+}
+
+.spread {
+    animation-name: spread;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+
+.fadein {
+    opacity: 0%;
+    margin: 25px;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 0.2s;
+}
+
+.time_1 {
+    animation-delay: 2.2s;
+}
+
+.time_2 {
+    animation-delay: 3.2s;
+}
+
+.time_3 {
+    animation-delay: 4.2s;
+}
+
+.time_4 {
+    animation-delay: 5.2s;
+}
+
+.time_5 {
+    animation-delay: 6.2s;
+}
+
+@keyframes spread {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    50% {
+        height: 0px;
+        width: 400px;
+    }
+
+    100% {
+        height: 600px;
+        width: 400px;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0%;
+    }
+
+    1% {
+        opacity: 100%;
+    }
+
+    19% {
+        opacity: 100%;
+    }
+
+    20% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
