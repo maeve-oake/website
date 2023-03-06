@@ -6,7 +6,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    font-family: "Consolas";
+    font-family: "Menlo", "Consolas", "Lucida Console", monospace;
 }
 
 .top {
@@ -37,7 +37,6 @@ h3 {
     margin: 0 0 25px 0 !important;
     width: 100%;
 }
-
 
 h1,
 h2 {
@@ -92,8 +91,8 @@ a {
 
 @keyframes spread {
     0% {
-        width: 0px;
         height: 0px;
+        width: 0px;
     }
 
     50% {
