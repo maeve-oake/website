@@ -74,19 +74,19 @@ a {
 }
 
 .time_2 {
-    animation-delay: 3.2s;
+    animation-delay: 2.4s;
 }
 
 .time_3 {
-    animation-delay: 4.2s;
+    animation-delay: 2.8s;
 }
 
 .time_4 {
-    animation-delay: 5.2s;
+    animation-delay: 3.0s;
 }
 
 .time_5 {
-    animation-delay: 6.2s;
+    animation-delay: 3.2s;
 }
 
 @keyframes spread {
