@@ -57,7 +57,7 @@ a {
     animation-name: spread;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 0.4s;
     animation-timing-function: ease;
 }
 
@@ -70,23 +70,23 @@ a {
 }
 
 .time_1 {
-    animation-delay: 2.2s;
+    animation-delay: 1.6s;
 }
 
 .time_2 {
-    animation-delay: 2.4s;
+    animation-delay: 1.8s;
 }
 
 .time_3 {
-    animation-delay: 2.8s;
+    animation-delay: 2.2s;
 }
 
 .time_4 {
-    animation-delay: 3.0s;
+    animation-delay: 2.4s;
 }
 
 .time_5 {
-    animation-delay: 3.2s;
+    animation-delay: 2.6s;
 }
 
 @keyframes spread {
