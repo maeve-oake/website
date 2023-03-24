@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    border: white;
     color: white;
     overflow-x: hidden;
     overflow: hidden;
@@ -18,6 +17,13 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
 }
 
 #main {
@@ -51,6 +57,32 @@ a {
     text-decoration: underline;
     color: white;
     margin: 20px;
+    transition: 0.5s;
+}
+
+label {
+    cursor: pointer;
+    bottom: 0;
+    position: fixed;
+}
+
+input,
+#dark,
+input:checked~div #light {
+    display: none;
+}
+
+input:checked~div #dark {
+    display: initial;
+}
+
+input:checked~div a {
+    color: black;
+}
+
+input:checked~div {
+    background-color: white;
+    color: black;
 }
 
 .spread {
@@ -61,10 +93,10 @@ a {
     animation-timing-function: ease;
 }
 
-.fadein {
+.flicker {
     opacity: 0%;
     margin: 25px;
-    animation-name: fadein;
+    animation-name: flicker;
     animation-fill-mode: forwards;
     animation-duration: 0.2s;
 }
@@ -89,6 +121,10 @@ a {
     animation-delay: 2.6s;
 }
 
+.time_6 {
+    animation-delay: 2.8s;
+}
+
 @keyframes spread {
     0% {
         height: 0px;
@@ -106,7 +142,7 @@ a {
     }
 }
 
-@keyframes fadein {
+@keyframes flicker {
     0% {
         opacity: 0%;
     }
