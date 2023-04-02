@@ -8,12 +8,59 @@ body {
     font-family: "Menlo", "Consolas", "Lucida Console", monospace;
 }
 
+.top {
+    top: 50%;
+}
+
+.center {
+    position: fixed;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.margin_25 {
+    margin: 25px;
+}
+
 #background {
     position: fixed;
     width: 100%;
     height: 100%;
     transition: 0.5s;
 }
+
+#main {
+    min-width: 600px;
+    max-width: 1000px;
+    height: fit-content;
+    border: 3px solid;
+    padding-bottom: 70px;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h3 {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 25px 0 !important;
+    width: 100%;
+}
+
+h1,
+p,
+h2 {
+    margin-bottom: 0px !important;
+    margin: 25px;
+}
+
+p {
+    margin-top: 0px !important;
+}
+
 
 label {
     cursor: pointer;
