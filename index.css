@@ -66,7 +66,7 @@ label {
     position: fixed;
 }
 
-input,
+#checkbox,
 #dark,
 input:checked~div #light {
     display: none;
