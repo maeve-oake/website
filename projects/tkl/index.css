@@ -37,6 +37,10 @@ img {
     display: flex;
 }
 
+.flip {
+    transform: scaleX(-1);
+}
+
 .content {
     padding: 15px;
     align-items: center;
@@ -61,8 +65,7 @@ h1 {
     font-size: 2.6em;
 }
 
-#email {
-    bottom: 0;
+h3 {
     text-align: center;
     margin: 25px 0 25px 0 !important;
     width: 100%;
