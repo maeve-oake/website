@@ -8,44 +8,43 @@ body {
     font-family: "Menlo", "Consolas", "Lucida Console", monospace;
 }
 
-.top {
-    top: 50%;
-}
-
-.center {
-    position: fixed;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.margin_25 {
-    margin: 25px;
+a {
+    color: white;
 }
 
 #background {
     position: fixed;
     width: 100%;
     height: 100%;
-    transition: 0.5s;
 }
 
 #main {
+    margin: 50px auto auto auto;
     min-width: 600px;
     max-width: 1000px;
     height: fit-content;
     border: 3px solid;
-    padding-bottom: 70px;
+}
+
+.flex {
+    display: flex;
+}
+
+#download {
+    margin: 25px 25px 0 auto;
+}
+
+ul {
+    margin-left: 25px;
 }
 
 h1 {
     font-size: 2.6em;
 }
 
-h3 {
-    text-align: center;
-    position: absolute;
+#email {
     bottom: 0;
+    text-align: center;
     margin: 0 0 25px 0 !important;
     width: 100%;
 }
