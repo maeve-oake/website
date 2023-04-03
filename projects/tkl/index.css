@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: underline;
     color: white;
-    transition: 0.5s;
+    transition: color 0.5s;
 }
 
 #background {
