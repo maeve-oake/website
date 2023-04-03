@@ -14,10 +14,10 @@ a {
 
 img {
     object-fit: contain;
-    width: 40%;
+    width: 48%;
     border: 3px solid;
-    margin-left: 25px;
 }
+
 
 #background {
     width: 100%;
@@ -27,7 +27,7 @@ img {
 
 #main {
     margin: auto;
-    min-width: 350px;
+    min-width: 500px;
     max-width: 1000px;
     height: fit-content;
     border: 3px solid;
@@ -35,6 +35,17 @@ img {
 
 .flex {
     display: flex;
+}
+
+.content {
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content p {
+    width: 48%;
+    margin: 0;
 }
 
 #download {
@@ -60,8 +71,7 @@ h1 {
 h1,
 p,
 h2 {
-    margin-bottom: 0px !important;
-    margin: 25px;
+    margin: 25px 25px 0 25px !important;
 }
 
 p {
