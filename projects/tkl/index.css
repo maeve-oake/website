@@ -17,6 +17,11 @@ img {
     border: 3px solid;
 }
 
+.youtube {
+    border: none;
+    object-fit: contain;
+}
+
 .half {
     width: 48%;
 }
