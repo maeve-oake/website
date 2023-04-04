@@ -28,15 +28,15 @@
             </div>
 
             <h2>the plan:</h2>
-            <p>since the stalks on my Corsair K68 RGB started to wear out, i've been wanting a new keyboard, preferrably
-                handmade, and without a numberpad for extra mouse space.<br><br>i couldn't find any premade PCBs in ISO
-                for not a stupid amount of money, and handwiring my own is a much cheaper option than getting
-                PCBs cut.
+            <p>since the stalks on my Corsair K68 RGB started to wear out, i've been wanting a new keyboard,
+                preferrably handmade, and without a numberpad for extra mouse space.<br><br>i couldn't find any premade
+                PCBs in ISO for not a stupid amount of money, and handwiring my own is a much cheaper option than
+                getting PCBs cut.
             </p>
 
-            <h2>hardware:</h2>
+            <h2>parts:</h2>
 
-            <p>my first handmade keyboard was shit - it used gateron blues, a 3D printed chassis <a
+            <p>my first handmade keyboard was shit - it used gateron blues, a (badly) 3D printed chassis <a
                     href="https://www.thingiverse.com/thing:3478494">[sick68]</a> and a teensy 2.0. i forgot to buy
                 stabilizers, but the concept was sound and worked.
             </p>
@@ -44,30 +44,58 @@
             <ul>
                 <li>teensy 2.0
                 <li>~100 cherry MX reds
+                <li>~100 1N4148 diodes
                 <li>3D printed custom chassis
                 <li>stripped ethernet cable
                 <li>costar stabilizers
-                <li><a href="https://drop.com/buy/drop-matt3o-mt3-susuwatari-custom-keycap-set">susuwatari MT3 caps</a>
+                <li><a href="https://drop.com/buy/drop-matt3o-mt3-susuwatari-custom-keycap-set">susuwatari MT3
+                        caps</a>
                 <li>USB mini B cable
             </ul>
 
             <h2>chassis:</h2>
 
             <div class="flex content">
-                <img alt="isometric exploded view of the keyboard chassis" src="https://img.birb.cc/k4NXQpbJ.png">
+                <img class="half" alt="isometric view of the keyboard chassis" src="https://img.birb.cc/k4NXQpbJ.png">
                 <p>the chassis is designed in four parts, as my Anet A8+ 3D printer takes ~ 6 hours for each part. I
-                    decided on a two-tone white and black finish, and utilized the glass bed of my printer to create a
-                    mirror finish on the top surface.</p>
+                    decided on a two-tone white and black finish, and utilized the glass bed of my printer to create
+                    a mirror finish on the top surface.
+                </p>
             </div>
 
             <div class="flex content">
                 <p>The bottom casing is at a 3.5 degree angle, for more comfortable use. The top place sits on runners
-                    inside the bottom casing. The parts can be "welded" together using a soldering iron.</p>
-                <img class="flip" alt="view of the 3.5 degree angle" src="https://img.birb.cc/NO5oVg69.png">
+                    inside the bottom casing. The parts can be "welded" together using a soldering iron.
+                </p>
+                <img class="half flip" alt="view of the 3.5 degree angle" src="https://img.birb.cc/NO5oVg69.png">
             </div>
 
-            <h3><a href="">download .stl</a></h3>
+            <h3><a href="https://img.birb.cc/seI5uonK.zip">download .stl</a></h3>
 
+            <h2>electronics:</h2>
+
+            <p>a TKL ISO board with a full function row has 87 keys, 6 rows and 17 columns - the way a teensy works as a
+                keyboard is by scanning each row and column to check for connections, so to hook up every key i'll need
+                to use exactly 23 pins.
+            </p>
+
+            <img class="flip fullwidth" alt="a grid view of each key" src="https://img.birb.cc/jrUxbyoF.png">
+            <p class="center">this image is flipped, as you have to solder each wire onto the back of the board, not the
+                front
+            </p>
+
+            <img class="fullwidth" alt="the teensy wired to each switch" src="https://img.birb.cc/RIRhn2qr.png">
+
+            <h2>software:</h2>
+
+            <h2>gallery:</h2>
+
+            <img class="fullwidth" alt="keyboard" src="https://img.birb.cc/QABZJc0j.jpg">
+
+            <div class="flex content">
+                <img class="half" src="https://img.birb.cc/sUjZwStV.jpg">
+                <img class="half" src="https://img.birb.cc/e4gcXy62.jpg">
+            </div>
             <h3>email me ~ birb@birb.cc</h3>
         </div>
     </div>
