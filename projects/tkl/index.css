@@ -57,6 +57,10 @@ img {
     transform: scaleX(-1);
 }
 
+.rotate_90 {
+    transform: rotate(90deg);
+}
+
 .content {
     padding: 15px;
     align-items: center;
