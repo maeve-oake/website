@@ -16,6 +16,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.indent {
+    padding-left: 1ch;
+}
+
 #background {
     position: fixed;
     width: 100%;
@@ -47,13 +51,12 @@ h2 {
 }
 
 p {
-    margin-top: 0px !important;
+    margin: 0px !important;
 }
 
 a {
     text-decoration: underline;
     color: white;
-    margin: 20px;
     transition: 0.5s;
 }
 
