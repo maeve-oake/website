@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
+    <meta charset="utf-8">
+    <title>137</title>
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+    <link rel="stylesheet" href="../blog.css">
+</head>
+
+<body>
+    <input type="checkbox" id="checkbox">
+
+    <div id=background>
+
+        <label class="themeswitcher" id=light for="checkbox">light</label>
+        <label class="themeswitcher" id=dark for="checkbox">dark</label>
+
+        <div id="main">
+            <div class="flex">
+                <div>
+                    <h1>137</h1>
+                    <p>playing with 137MHz weather satellites</p>
+                </div>
+
+                <a id=download href="">download files</a>
+            </div>
+
+            <h2>introduction</h2>
+            <p>after coming across the <a href="https://www.youtube.com/saveitforparts">saveitforparts</a> youtube
+                channel (and watching every video) i saw how easily and cheaply receiving usable imagary is. i'm
+                personally more interested in the photography than the weather aspect, and these black and white, noisy
+                feeds do have a character to them
+            </p>
+
+            <h2>the antenna (and how this works)</h2>
+            <p><a href="https://en.wikipedia.org/wiki/Automatic_picture_transmission">APT (automatic picture
+                    transmission)</a> is an analog system for transmitting continuous images over radio -
+                there are three american NOAA weather satellites that transmit APT signals at around 137MHz, which can
+                be received very clearly with a makeshift antenna - literally two copper pipes at 120 degrees, which is
+                exactly what I did.<br><br>
+                APT is a pretty old standard, and provides two low resolution monochrome images, one visible spectrum
+                and one IR during daytime, and two different IR images during nighttime. it's significantly easier to
+                get usable images, compared to higher freqency feeds like <a
+                    href="https://en.wikipedia.org/wiki/High-resolution_picture_transmission">HRPT</a>
+            </p>
+
+            <div class="flex content">
+                <img class="half" alt="two copper pipes duct-taped to a fence panel"
+                    src="https://img.birb.cc/wh2nPv5R.jpg">
+                <img class="half" alt="a laptop and the antenna on a brick wall" src="https://img.birb.cc/yvwvx2yE.jpg">
+            </div>
+
+            <p> my first antenna was a v-dipole, which is exactly what it sounds like. two poles in a V shape,
+                specifically at 120 degrees and a length of 534mm, which is just under four times the length of a 137MHz
+                radio wave.</p>
+
+        </div>
+
+    </div>
+</body>
