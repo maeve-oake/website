@@ -23,15 +23,13 @@
                     <h1>137</h1>
                     <p>playing with 137MHz weather satellites</p>
                 </div>
-
-                <a id=download href="">download files</a>
             </div>
 
             <h2>introduction</h2>
             <p>after coming across the <a href="https://www.youtube.com/saveitforparts">saveitforparts</a> youtube
                 channel (and watching every video) i saw how easily and cheaply receiving usable imagary is. i'm
                 personally more interested in the photography than the weather aspect, and these black and white, noisy
-                feeds do have a character to them
+                feeds do have a unique feel to them.
             </p>
 
             <h2>the antenna (and how this works)</h2>
@@ -43,7 +41,7 @@
                 APT is a pretty old standard, and provides two low resolution monochrome images, one visible spectrum
                 and one IR during daytime, and two different IR images during nighttime. it's significantly easier to
                 get usable images, compared to higher freqency feeds like <a
-                    href="https://en.wikipedia.org/wiki/High-resolution_picture_transmission">HRPT</a>
+                    href="https://en.wikipedia.org/wiki/High-resolution_picture_transmission">HRPT.</a>
             </p>
 
             <div class="flex content">
@@ -52,10 +50,30 @@
                 <img class="half" alt="a laptop and the antenna on a brick wall" src="https://img.birb.cc/yvwvx2yE.jpg">
             </div>
 
-            <p> my first antenna was a v-dipole, which is exactly what it sounds like. two poles in a V shape,
+            <p>my first antenna was a v-dipole, which is exactly what it sounds like. two poles in a V shape,
                 specifically at 120 degrees and a length of 534mm, which is just under four times the length of a 137MHz
                 radio wave.</p>
 
+            <h2>first transmissions</h2>
+            <p>unfortunately, the combination of location and imprecise antenna design resuled in
+                pretty poor results. I'm using the open-source <a href="https://gqrx.dk/">GQRX software</a>, on my
+                Arch Linux laptop to record the incoming signals - it's pretty simple, you just have to select your
+                RTL-SDR device, select the right frequency, and hit record. My first pass, i recorded in stereo by
+                accident, which completely ruined any chance of an image. Subsequent passes did end in visible
+                images.
+            </p>
+
+            <div class="flex content">
+                <img class="half" alt="a few stripes of cloud between static noise"
+                    src="https://img.birb.cc/eUXfFmww.png">
+                <img class="half" alt="a short image of some cloud cover" src="https://img.birb.cc/zXid8FyZ.png">
+            </div>
+
+            <p>these images are decoded from .wav format into an image by another open source project, <a
+                    href="https://noaa-apt.mbernardi.com.ar/">noaa-apt.</a> it's a modern alternative to the older
+                wxtoimg software, which is closed-source and no longer supported. noaa-apt supports features like
+                country overlay and false colour, which makes this images much more usable than just the unfiltered
+                monochrome originals.</p>
         </div>
 
     </div>
