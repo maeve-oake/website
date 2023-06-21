@@ -36,12 +36,12 @@
             <p><a href="https://en.wikipedia.org/wiki/Automatic_picture_transmission">APT (automatic picture
                     transmission)</a> is an analog system for transmitting continuous images over radio -
                 there are three american NOAA weather satellites that transmit APT signals at around 137MHz, which can
-                be received very clearly with a makeshift antenna - literally two copper pipes at 120 degrees, which is
+                be received very clearly with a makeshift antenna - literally two copper pipes, at 120 degrees, which is
                 exactly what I did.<br><br>
                 APT is a pretty old standard, and provides two low resolution monochrome images, one visible spectrum
                 and one IR during daytime, and two different IR images during nighttime. it's significantly easier to
                 get usable images, compared to higher freqency feeds like <a
-                    href="https://en.wikipedia.org/wiki/High-resolution_picture_transmission">HRPT.</a>
+                    href="https://en.wikipedia.org/wiki/High-resolution_picture_transmission">HRPT</a>.
             </p>
 
             <div class="flex content">
@@ -70,11 +70,34 @@
             </div>
 
             <p>these images are decoded from .wav format into an image by another open source project, <a
-                    href="https://noaa-apt.mbernardi.com.ar/">noaa-apt.</a> it's a modern alternative to the older
+                    href="https://noaa-apt.mbernardi.com.ar/">noaa-apt</a>. it's a modern alternative to the older
                 wxtoimg software, which is closed-source and no longer supported. noaa-apt supports features like
                 country overlay and false colour, which makes this images much more usable than just the unfiltered
-                monochrome originals.</p>
+                monochrome originals.
+            </p>
+
+            <h2>v2 antenna</h2>
+            <p>after getting half a dozen subpar images, i realised the need for a new antenna - not made out of fence
+                panel and copper pipes. I bought two 3.5mm aluminium rods, and cut them down to the appropriate 534mm.
+                My plan was to 3D print a frame, and solder the COAX cable to the poles, but due my iron or solder being
+                terrible, i couldn't get the solder to stick at all. I instead used the grub-screw holes in my design,
+                to friction fit the COAX copper and shielding. This worked remarkably well.
+            </p>
+
+            <div class="flex content">
+                <img class="half" alt="a new, slimmer antenna" src="https://img.birb.cc/ccy4Kyok.jpg">
+                <img class="half" alt="my laptop in a field" src="https://img.birb.cc/oLcknVhz.jpg">
+            </div>
+
+            <p>visiting somewhere with clear LOS to the sky, and no buildings or surfaces to reflect signals definitely
+                improved the quality of my images too. - my first pass with the V2 antenna got clear signal from
+                northern africa, all the way to iceland.
+            </p>
+
+            <img class="fullwidth" alt="a new, slimmer antenna" src="https://img.birb.cc/HjvDzckx.png">
         </div>
+
+
 
     </div>
 </body>
