@@ -65,7 +65,8 @@
             <ul>
                 <li>Raspberry Pi (any model)
                 <li>16x2 i2c LCD Display (larger ones work too!)
-                <li>USB Floppy Disk drive
+                <li>USB floppy disk drive
+                <li>some kind of chassis or frame (optional)
             </ul>
 
             <p>the floppy drive plugs into the Pi, the LCD display to the GPIO pins, and all the Pi needs is power and
@@ -74,6 +75,27 @@
             </p>
 
             <iframe class="youtube fullwidth" height="500" src="https://www.youtube.com/watch?v=MUC1gh4mDqI"></iframe>
+
+            <h2>the software</h2>
+
+            <p>there's a few ways this could go together on the software side, but here are the facts:
+                <br><br>
+                we have a floppy drive connected, and sometimes a floppy disk insertedm which <i>may</i> have an
+                audio file on it.
+                we want to make sure the disk is mounted, and if a valid audio file found to play it!
+                <br><br>
+                We could keep the audio file on the root of a formatted floppy, but this will lose some available space.
+                We could also write the audio file directly to the disk, but then we'll have issues with checking if the
+                file is valid and storing metadata too - standard DOS formatted floppies should be fine.
+                <br><br>
+                all we need to do is mount the disk and play the file - metadata can be read from a .txt and printed to
+                the display.
+                <br><br>
+                In the video above, I tested only two audio formats. MP3s compressed down to 1.44MB turn out to be
+                <i>barely recognisable.</i> MP3 really isn't meant for the modern world - so i tried the OPUS
+                compression format. It's designed for voice and streaming, but it performed very well with a significant
+                improvement over MP3. Unfortuately it's still audibly compressed, but that's a tradeoff i'm willing to
+                make.
         </div>
     </div>
 </body>
