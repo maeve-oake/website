@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
+    <meta charset="utf-8">
+    <title>floppy</title>
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+    <link rel="stylesheet" href="../blog.css">
+</head>
+
+<body>
+    <input type="checkbox" id="checkbox">
+
+    <div id=background>
+
+        <label class="themeswitcher" id=light for="checkbox">light</label>
+        <label class="themeswitcher" id=dark for="checkbox">dark</label>
+
+        <div id="main">
+            <div class="flex">
+                <div>
+                    <h1>floppy</h1>
+                    <p>floppy disk jukebox</p>
+                </div>
+
+                <a id=download href="https://github.com/hummusbird/floppy">github</a>
+            </div>
+
+            <h2>the disk</h2>
+            <p>recently at work i've had to use floppy disks - the 3.5 inch, 1.44 MB plastic rectangles from the 80s.
+                younger people might never have even used one of these disks, which were so ubiquitous at their peak
+                that we STILL use a floppy disk to represent the "save" icon in thousands of GUIs.
+                <br><br>
+                i want to do something... stupid with them.
+                <br><br>
+                humans love tangible things, even if equivalents are better in every way; just look at casettes, vinyls,
+                even old iPods over streaming audio off your phone. It's worse in almost every way, except silly human
+                brain go "oooo" - why can't floppy disks be the same?
+            </p>
+
+            <h2>the plan</h2>
+            <p> they're 1.44MB - this is *just* big enough to fit a VERY compressed mp3 file, and what's better than
+                only being able to fit one song on each disk? (this is such a stupid idea).
+                <br>
+                i want to keep this project absurdly simple too - if i'm going to make a jukebox floppy disk player,
+                it's not going to have play or pause, no FF or RW, and to "skip" a song, you'll have to change the
+                disk
+                yourself. It's definitely going to be a gimmick, but so is using vinyls in 2023!
+            </p>
+
+            <div class="flex content">
+                <img class="half" alt="front drawing of the floppy disk player" src="https://img.birb.cc/jfJQWpu4.png">
+                <img class="half" alt="side drawing of the floppy disk player" src="https://img.birb.cc/37CG72w6.png">
+            </div>
+
+            <p>it needs some kind of output, other than audio, so a small 16x2 LCD should fit the theme - It'll show the
+                status of the player, and current song metadata.
+            </p>
+
+            <h2>the hardware</h2>
+            <p>here is every component needed for the simplest version:
+            </p>
+
+            <ul>
+                <li>Raspberry Pi (any model)
+                <li>16x2 i2c LCD Display (larger ones work too!)
+                <li>USB floppy disk drive
+                <li>some kind of chassis or frame (optional)
+            </ul>
+
+            <p>the floppy drive plugs into the Pi, the LCD display to the GPIO pins, and all the Pi needs is power and
+                aux out connected. At the moment I have no plans to include any buttons or dials (although i did draw
+                them on the diagram!)
+            </p>
+
+            <iframe class="youtube fullwidth" height="500" src="https://www.youtube.com/watch?v=MUC1gh4mDqI"></iframe>
+
+            <h2>the software</h2>
+            <p>there's a few ways this could go together on the software side, but here are the facts:
+                <br><br>
+                we have a floppy drive connected, and sometimes a floppy disk insertedm which <i>may</i> have an
+                audio file on it.
+                we want to make sure the disk is mounted, and if a valid audio file found to play it!
+                <br><br>
+                We could keep the audio file on the root of a formatted floppy, but this will lose some available space.
+                We could also write the audio file directly to the disk, but then we'll have issues with checking if the
+                file is valid and storing metadata too - standard DOS formatted floppies should be fine.
+                <br><br>
+                all we need to do is mount the disk and play the file - metadata can be read from a .txt and printed to
+                the display.
+                <br><br>
+                In the video above, I tested only two audio formats. MP3s compressed down to 1.44MB turn out to be
+                <i>barely recognisable.</i> MP3 really isn't meant for the modern world - so i tried the OPUS
+                compression format. It's designed for voice and streaming, but it performed very well with a significant
+                improvement over MP3. Unfortuately it's still audibly compressed, but that's a tradeoff i'm willing to
+                make.
+            </p>
+
+            <h2>prototypes</h2>
+            <div class="flex content">
+                <iframe class="youtube half" height="700" src="https://www.youtube.com/shorts/QMKQOB7Oue8"></iframe>
+                <iframe class="youtube half" height="700" src="https://www.youtube.com/shorts/RPwPxpf4r2E"></iframe>
+            </div>
+
+            <p class="center">two functional prototypes, where the disk is autoplayed when inserted into the drive</p>
+        </div>
+    </div>
+</body>
