@@ -6,6 +6,10 @@ body {
     font-family: "Menlo", "Consolas", "Lucida Console", monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: underline;
     color: white;
