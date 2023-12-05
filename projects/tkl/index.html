@@ -27,6 +27,8 @@
                 <a id=download href="https://img.birb.cc/seI5uonK.zip">download files</a>
             </div>
 
+            <img class="fullwidth" src="https://img.birb.cc/KjVTOZT8.jpg">
+
             <h2>the plan</h2>
             <p>since the stalks on my Corsair K68 RGB started to wear out, i've been wanting a new keyboard,
                 preferrably handmade, and without a numberpad for extra mouse space.<br><br>i couldn't find any premade
@@ -96,35 +98,51 @@
 
             <h2>software</h2>
 
-            <p>the teensy 2.0 can be turned into a keyboard controller using EasyAVR. you just need to supply it with a
-                json file of the keymap, and it'll generate a .py file, or a .hex you can flash. i've provided the .hex
-                and the .py if you'd like to edit the layout.</p>
+            <p>the teensy 2.0 can be turned into a keyboard controller using <a href="https://qmk.fm/">QMK</a>. you just
+                need to set up the environment and specify a keymap. You can use my handwired keymap and modify it by
+                forking my <a href="https://github.com/hummusbird/qmk_firmware">QMK fork</a>.
+                <br><br>
+                Once you have QMK set up, run this command and press the reset switch on the teensy:
+                <br><br>
+            </p>
 
-            <h3><a href="https://img.birb.cc/jBJBzxlP.zip">download .hex & flash tool</a></h3>
+            <p class="codeblock">
+                qmk flash -kb teensy_handw -km default
+            </p>
 
-            <h2>gallery</h2>
+            <h2>extended 2048</h2>
 
             <p>the MT3 susuwatari keycaps i chose create a very nice contrast against the white case for the keyboard.
                 the red enter + escape keys give it a very vibrant splash of colour too.
                 <br><br>
-                i'm very happy with the end result, and have plans to make another keyboard in this sort of style.
+                i'm very happy with the end result, and have <s>plans to make</s> made another keyboard in this style!
+                <br><br>
+                the only improvements from my previous design was the addition of a SSD1306 OLED display
+                this oled can be connected directly to the microcontroller, but i had issues with the larger 1.3"
+                version and specifically the teensy, where other sizes of the same oled worked fine.
+                <br><br>
+                this keyboard was also entirely white, and used <a>MT3 Extended 2048</a> keycaps. very pretty.
             </p>
 
-            <img class="fullwidth" alt="keyboard" src="https://img.birb.cc/QABZJc0j.jpg">
-
             <div class="flex content">
-                <img class="half rotate_90" src="https://img.birb.cc/sUjZwStV.jpg">
-                <img class="half" src="https://img.birb.cc/e4gcXy62.jpg">
+                <img class="half" src="https://img.birb.cc/jIW7kUEN.jpg">
+                <img class="half" src="https://img.birb.cc/IcdNhI0p.jpg">
             </div>
+
+            <h2>gallery</h2>
+
+            <img class="fullwidth" alt="keyboard" src="https://img.birb.cc/QABZJc0j.jpg">
 
             <div class="flex content">
                 <img class="half" src="https://img.birb.cc/26n22cJ2.jpg">
                 <img class="half" src="https://img.birb.cc/41ANuSRY.jpg">
             </div>
 
+            <img class="fullwidth" src="https://img.birb.cc/DHMgOikL.jpg">
+
             <h2>youtube</h2>
 
-            <iframe class="youtube fullwidth" height="500" src="https://www.youtube.com/embed/LX6V-XuRPWU"></iframe>
+            <iframe class=" youtube fullwidth" height="500" src="https://www.youtube.com/embed/LX6V-XuRPWU"></iframe>
 
             <iframe class="youtube fullwidth" height="500" src="https://www.youtube.com/embed/JAsIhA-4dqg"></iframe>
 
