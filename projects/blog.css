@@ -105,6 +105,13 @@ p {
     margin-top: 0px !important;
 }
 
+.codeblock {
+    background-color: #262626;
+    color: #CCCCCC;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .themeswitcher {
     display: block;
     padding: 15px;
