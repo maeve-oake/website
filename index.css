@@ -20,6 +20,19 @@ body {
     padding-left: 1ch;
 }
 
+.doubleindent {
+    padding-left: 2ch;
+}
+
+.gray {
+    color: gray;
+}
+
+.systemdetail {
+    float:right;
+    padding-right: 1ch;
+}
+
 #background {
     position: fixed;
     width: 100%;
