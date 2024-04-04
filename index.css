@@ -33,6 +33,22 @@ body {
     border: 3px solid;
 }
 
+.badge-grid {
+    margin: 0 58px 4px 58px !important;
+}
+
+.badge-grid img {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    width: 88px;
+    height: 31px;
+}
+
 h1 {
     font-size: 2.6em;
 }
@@ -66,21 +82,33 @@ label {
     position: fixed;
 }
 
-#checkbox,
+#hidebadges,
+#showbadges {
+    right: 0;
+}
+
+#theme-checkbox,
 #dark,
-input:checked~div #light {
+#badges,
+#theme-checkbox:checked~div #light,
+#badge-checkbox,
+#hidebadges,
+#badge-checkbox:checked~div #showbadges,
+#badge-checkbox:checked~div #home {
     display: none;
 }
 
-input:checked~div #dark {
+#theme-checkbox:checked~div #dark,
+#badge-checkbox:checked~div #hidebadges,
+#badge-checkbox:checked~div #badges {
     display: initial;
 }
 
-input:checked~div a {
+#theme-checkbox:checked~div a {
     color: black;
 }
 
-input:checked~div {
+#theme-checkbox:checked~div {
     background-color: white;
     color: black;
 }
@@ -99,6 +127,30 @@ input:checked~div {
     animation-name: flicker;
     animation-fill-mode: forwards;
     animation-duration: 0.2s;
+}
+
+.time_-5 {
+    animation-delay: 0.2s;
+}
+
+.time_-4 {
+    animation-delay: 0.4s;
+}
+
+.time_-3 {
+    animation-delay: 0.8s;
+}
+
+.time_-2 {
+    animation-delay: 1.0s;
+}
+
+.time_-1 {
+    animation-delay: 1.2s;
+}
+
+.time_0 {
+    animation-delay: 1.4s;
 }
 
 .time_1 {
