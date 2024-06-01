@@ -96,6 +96,7 @@ a {
 
 label {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #hidebadges,
@@ -110,30 +111,30 @@ label {
 #systems-checkbox,
 #badge-checkbox,
 
-#projects-checkbox:checked~div #showprojects,
+#projects-checkbox:checked~div .showprojects,
 #projects-checkbox:checked~div #home,
 
-#socials-checkbox:checked~div #showsocials,
+#socials-checkbox:checked~div .showsocials,
 #socials-checkbox:checked~div #home,
 
-#systems-checkbox:checked~div #showsystems,
+#systems-checkbox:checked~div .showsystems,
 #systems-checkbox:checked~div #home,
 
-#badge-checkbox:checked~div #showbadges,
+#badge-checkbox:checked~div .showbadges,
 #badge-checkbox:checked~div #home {
     display: none;
 }
 
-#projects-checkbox:checked~div #hideprojects,
+#projects-checkbox:checked~div .hideprojects,
 #projects-checkbox:checked~div #projects,
 
-#socials-checkbox:checked~div #hidesocials,
+#socials-checkbox:checked~div .hidesocials,
 #socials-checkbox:checked~div #socials,
 
-#systems-checkbox:checked~div #hidesystems,
+#systems-checkbox:checked~div .hidesystems,
 #systems-checkbox:checked~div #systems,
 
-#badge-checkbox:checked~div #hidebadges,
+#badge-checkbox:checked~div .hidebadges,
 #badge-checkbox:checked~div #badges {
     display: initial;
 }
