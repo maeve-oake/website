@@ -96,39 +96,46 @@ a {
 
 label {
     cursor: pointer;
-    bottom: 0;
-    position: fixed;
 }
 
 #hidebadges,
-#showbadges {
-    right: 0;
-}
 
-#theme-checkbox,
-#dark,
+#projects,
+#socials,
+#systems,
 #badges,
-#theme-checkbox:checked~div #light,
+
+#projects-checkbox,
+#socials-checkbox,
+#systems-checkbox,
 #badge-checkbox,
-#hidebadges,
+
+#projects-checkbox:checked~div #showprojects,
+#projects-checkbox:checked~div #home,
+
+#socials-checkbox:checked~div #showsocials,
+#socials-checkbox:checked~div #home,
+
+#systems-checkbox:checked~div #showsystems,
+#systems-checkbox:checked~div #home,
+
 #badge-checkbox:checked~div #showbadges,
 #badge-checkbox:checked~div #home {
     display: none;
 }
 
-#theme-checkbox:checked~div #dark,
+#projects-checkbox:checked~div #hideprojects,
+#projects-checkbox:checked~div #projects,
+
+#socials-checkbox:checked~div #hidesocials,
+#socials-checkbox:checked~div #socials,
+
+#systems-checkbox:checked~div #hidesystems,
+#systems-checkbox:checked~div #systems,
+
 #badge-checkbox:checked~div #hidebadges,
 #badge-checkbox:checked~div #badges {
     display: initial;
-}
-
-#theme-checkbox:checked~div a {
-    color: black;
-}
-
-#theme-checkbox:checked~div {
-    background-color: white;
-    color: black;
 }
 
 .spread {
@@ -145,54 +152,6 @@ label {
     animation-name: flicker;
     animation-fill-mode: forwards;
     animation-duration: 0.2s;
-}
-
-.time_-5 {
-    animation-delay: 0.2s;
-}
-
-.time_-4 {
-    animation-delay: 0.4s;
-}
-
-.time_-3 {
-    animation-delay: 0.8s;
-}
-
-.time_-2 {
-    animation-delay: 1.0s;
-}
-
-.time_-1 {
-    animation-delay: 1.2s;
-}
-
-.time_0 {
-    animation-delay: 1.4s;
-}
-
-.time_1 {
-    animation-delay: 1.6s;
-}
-
-.time_2 {
-    animation-delay: 1.8s;
-}
-
-.time_3 {
-    animation-delay: 2.2s;
-}
-
-.time_4 {
-    animation-delay: 2.4s;
-}
-
-.time_5 {
-    animation-delay: 2.6s;
-}
-
-.time_6 {
-    animation-delay: 2.8s;
 }
 
 @keyframes spread {
