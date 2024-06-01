@@ -99,6 +99,10 @@ label {
     text-decoration: underline;
 }
 
+.homelabel {
+    font-size: 1.5em;
+}
+
 #hidebadges,
 
 #projects,
