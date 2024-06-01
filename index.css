@@ -96,11 +96,17 @@ a {
 
 label {
     cursor: pointer;
-    text-decoration: underline;
+}
+
+.pagelabel {
+    position: fixed;
+    z-index: 100;
+    right: 0;
 }
 
 .homelabel {
     font-size: 1.5em;
+    text-decoration: underline;
 }
 
 #hidebadges,
