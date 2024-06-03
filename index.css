@@ -38,14 +38,7 @@ body {
     padding-right: 1ch;
 }
 
-#background {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-}
-
-#main {
+.box {
     width: 0%;
     height: 0%;
     border: 3px solid;
@@ -157,20 +150,35 @@ label {
     display: initial;
 }
 
+#home-content {
+    animation-name: home-content;
+    animation-fill-mode: forwards;
+    animation-duration: 1.3s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@keyframes home-content {
+    0% {
+        display: none;
+    }
+
+    99% {
+        display: none;
+    }
+
+    100% {
+        display: block !important;
+    }
+}
+
 .spread {
     animation-name: spread;
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-delay: 0.4s;
     animation-timing-function: ease;
-}
-
-.flicker {
-    opacity: 0%;
-    margin: 25px;
-    animation-name: flicker;
-    animation-fill-mode: forwards;
-    animation-duration: 0.2s;
 }
 
 @keyframes spread {
@@ -188,6 +196,14 @@ label {
         height: 600px;
         width: 400px;
     }
+}
+
+.flicker {
+    opacity: 0%;
+    margin: 25px;
+    animation-name: flicker;
+    animation-fill-mode: forwards;
+    animation-duration: 0.2s;
 }
 
 @keyframes flicker {
