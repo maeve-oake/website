@@ -10,208 +10,208 @@
 </head>
 
 <body>
-    <input type="checkbox" id="about-checkbox">
-    <input type="checkbox" id="projects-checkbox">
-    <input type="checkbox" id="socials-checkbox">
-    <input type="checkbox" id="systems-checkbox">
-    <input type="checkbox" id="badge-checkbox">
+    <script>setTimeout(function () { document.getElementById('home').classList.remove("hidden") }, 1300);</script>
+
+    <input type="checkbox" class="hidden" id="about-checkbox">
+    <input type="checkbox" class="hidden" id="projects-checkbox">
+    <input type="checkbox" class="hidden" id="socials-checkbox">
+    <input type="checkbox" class="hidden" id="systems-checkbox">
+    <input type="checkbox" class="hidden" id="badge-checkbox">
 
     <div class="spread center box">
-        <div id="home-content">
-            <div id="home">
-                <div class="flicker" style="animation-delay: 0.2s">
-                    <h1>miaowing</h1>
-                    <p class="indent gray">desktop & systems technician</p>
-                </div>
-
-                <div class="flicker indent" style="animation-delay: 0.4s">
-                    <label class="showabout homelabel" for="about-checkbox">> about</label>
-                </div>
-                <div class="flicker indent" style="animation-delay: 0.9s">
-                    <label class="showprojects homelabel" for="projects-checkbox">> projects</label>
-                </div>
-                <div class="flicker indent" style="animation-delay: 1.0s">
-                    <label class="showsocials homelabel" for="socials-checkbox">> socials</label>
-                </div>
-                <div class="flicker indent" style="animation-delay: 1.1s">
-                    <label class="showsystems homelabel" for="systems-checkbox">> systems</label>
-                </div>
-                <div class="flicker indent" style="animation-delay: 1.2s">
-                    <label class="showbadges homelabel" for="badge-checkbox">> friends</label>
-                </div>
-
-                <h3 class="flicker bottom" style="animation-delay: 1.6s">email me ~ <a href=mailto:birb@birb.cc>birb@birb.cc</a></h3>
+        <div class="hidden" id="home">
+            <div class="flicker" style="animation-delay: 0.2s">
+                <h1>miaowing</h1>
+                <p class="indent gray">desktop & systems technician</p>
             </div>
 
-            <div id="about">
-                <label class="flicker hideabout pagelabel" style="animation-delay: 0.2s" for="about-checkbox">&lt; back</label>
-
-                <div class="flicker" style="animation-delay: 0.4s">
-                    <h1>about</h1>
-                    <p class="indent gray">maeve ~ she / her</p>
-                </div>
-
-                <div class="flicker">
-                    <p class="flicker" style="animation-delay: 0.6s">i'm maeve, a desktop & systems tech with an interest in photography, software dev, and cybersecurity</p>
-                    <br>
-                    <p class="flicker" style="animation-delay: 0.7s">sometimes i go by 'birb', or the handle @miaowing, especially online!</p>
-                    <br>
-                    <p class="flicker" style="animation-delay: 0.8s">my favourite videogame is <a href="https://rose-engine.org/signalis">SIGNALIS</a> and i was part of the <a href="https://store.steampowered.com/app/1237970/">Titanfall 2</a> <a href="https://northstar.tf">Northstar</a> modding project for over 2 years</p>
-                </div>
-
-                <div class="flicker" style="text-align: center; animation-delay: 5s;">
-                    <img src="./images/signalis.svg">
-                    <p style="letter-spacing: -1px">THIS SPACE<br>INTENTIONALLY<br>LEFT BLANK.</p>
-                </div>
-
-                <div class="badge-grid flicker bottom" style="animation-delay: 1s">
-                    <a href="https://flipperzero.one/"><img title="flip the world!" src="./images/88x31_flipper.gif"></a>
-                    <a><img title="trans rights!" src="./images/88x31_transbian.png"></a>
-                    <a href="https://miaow.ing"><img title="miaow.ing" src="./images/88x31_miaowing.png"></a>
-                </div>
+            <div class="flicker indent" style="animation-delay: 0.4s">
+                <label class="showabout homelabel" for="about-checkbox">> about</label>
+            </div>
+            <div class="flicker indent" style="animation-delay: 0.9s">
+                <label class="showprojects homelabel" for="projects-checkbox">> projects</label>
+            </div>
+            <div class="flicker indent" style="animation-delay: 1.0s">
+                <label class="showsocials homelabel" for="socials-checkbox">> socials</label>
+            </div>
+            <div class="flicker indent" style="animation-delay: 1.1s">
+                <label class="showsystems homelabel" for="systems-checkbox">> systems</label>
+            </div>
+            <div class="flicker indent" style="animation-delay: 1.2s">
+                <label class="showbadges homelabel" for="badge-checkbox">> friends</label>
             </div>
 
-            <div id="projects">
-                <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="projects-checkbox">&lt; back</label>
+            <h3 class="flicker bottom" style="animation-delay: 1.6s">email me ~ <a href=mailto:birb@birb.cc>birb@birb.cc</a></h3>
+        </div>
 
-                <div class="flicker" style="animation-delay: 0.4s">
-                    <h1>projects</h1>
-                </div>
+        <div id="about">
+            <label class="flicker hideabout pagelabel" style="animation-delay: 0.2s" for="about-checkbox">&lt; back</label>
 
-                <div class="flicker" style="animation-delay: 0.8s">
-                    <h2 class="indent"><a href="projects/floppy">floppy</a></h2>
-                    <p class="doubleindent gray">floppy disk jukebox</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 0.9s">
-                    <h2 class="indent"><a href="projects/tkl">tkl</a></h2>
-                    <p class="doubleindent gray">handmade uk iso tenkeyless</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.01s">
-                    <h2 class="indent"><a href="projects/137">137</a></h2>
-                    <p class="doubleindent gray">137mhz weather satellite fun</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.1s">
-                    <h2 class="indent"><a href="https://webring.birb.cc">webring</a></h2>
-                    <p class="doubleindent gray">simple asp.net webring</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.2s">
-                    <h2 class="indent"><a href="https://img.birb.cc">img.birb.cc</a></h2>
-                    <p class="doubleindent gray">private asp.net filehost</p>
-                </div>
-
-                <div class="indent flicker" style="animation-delay: 1.3s">
-                    <a href="https://github.com/hummusbird/typing">typing</a>
-                    <a href="https://github.com/hummusbird/w98">w98</a>
-                    <a href="https://github.com/hummusbird/matrix">matrix</a>
-                    <a href="https://github.com/hummusbird/powercord-crypto">powercord-crypto</a>
-                    <a href="https://github.com/hummusbird/joe-biden">joe-biden</a>
-                    <a href="https://github.com/hummusbird/website">website</a>
-                </div>
-
-                <h3 class="flicker bottom" style="animation-delay: 1.5s">more available @ <a href=https://github.com/hummusbird>github</a></h3>
+            <div class="flicker" style="animation-delay: 0.4s">
+                <h1>about</h1>
+                <p class="indent gray">maeve ~ she / her</p>
             </div>
 
-            <div id="socials">
-                <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="socials-checkbox">&lt; back</label>
-
-                <div class="flicker" style="animation-delay: 0.4s">
-                    <h1>socials</h1>
-                </div>
-
-                <div class="flicker" style="animation-delay: 0.8s">
-                    <h2 class="indent"><a href="https://github.com/hummusbird">github</a></h2>
-                    <p class="doubleindent gray">software & programming</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 0.9s">
-                    <h2 class="indent"><a href="https://youtube.com/@hummusbird">youtube</a></h2>
-                    <p class="doubleindent gray">personal projects & tutorials</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.0s">
-                    <h2 class="indent"><a href="https://webring.birb.cc">instagram</a></h2>
-                    <p class="doubleindent gray">art & photography</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.1s">
-                    <h2 class="indent"><a href="https://steamcommunity.com/id/hummusbirb">steam</a></h2>
-                    <p class="doubleindent gray">/id/hummusbirb</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.2s">
-                    <h2 class="indent"><a href="https://www.discordapp.com/users/375671695240855553">discord</a></h2>
-                    <p class="doubleindent gray">@miaowing</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.3s">
-                    <h2 class="indent"><a href="https://matrix.to/#/@birb:birb.cc">matrix</a></h2>
-                    <p class="doubleindent gray">@birb:birb.cc</p>
-                </div>
-
-                <div class="flicker" style="animation-delay: 1.5s">
-                    <h2 class="indent"><a href="mailto:birb@birb.cc">e-mail</a></h2>
-                    <p class="doubleindent gray">birb@birb.cc</p>
-                </div>
+            <div class="flicker">
+                <p class="flicker" style="animation-delay: 0.6s">i'm maeve, a desktop & systems tech with an interest in photography, software dev, and cybersecurity</p>
+                <br>
+                <p class="flicker" style="animation-delay: 0.7s">sometimes i go by 'birb', or the handle @miaowing, especially online!</p>
+                <br>
+                <p class="flicker" style="animation-delay: 0.8s">my favourite videogame is <a href="https://rose-engine.org/signalis">SIGNALIS</a> and i was part of the <a href="https://store.steampowered.com/app/1237970/">Titanfall 2</a> <a href="https://northstar.tf">Northstar</a> modding project for over 2 years</p>
             </div>
 
-            <div id="systems">
-                <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="systems-checkbox">&lt; back</label>
-
-                <div class="flicker" style="animation-delay: 0.4s">
-                    <h1>systems</h1>
-                </div>
-
-                <div class="flicker">
-                    <p class="indent flicker gray" style="animation-delay: 1s">reflektor <span class="systemdetail gray">custom rackmount PC</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 1.1s">R5 7600x  // 32GB DDR5 // GTX 1080</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 1.2s">slate <span class="systemdetail gray">13" surface laptop 3</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 1.3s">i7-1065G7 // 16GB DDR4 // Arch</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 1.4s">abiior <span class="systemdetail gray">dell latitude 5400</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 1.5s">i5-8365U  // 32GB DDR4 // Arch</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 1.6s">carbon <span class="systemdetail gray">dell latitude 7440</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 1.7s">i5-1345U  // 16GB DDR5 // Arch</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 1.8s">pro8 <span class="systemdetail gray">surface pro 8</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 1.9s">i5-1145G7 // 16GB DDR4 // Win 10</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 2s">kolibri <span class="systemdetail gray">surface go 3</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 2.1s">i3-10100Y //  4GB DDR3 // Arch</p>
-                    <br>
-                    <p class="indent flicker gray" style="animation-delay: 2.4s">cluster <span class="systemdetail gray">4x lenovo m73 tiny</span></p>
-                    <p class="doubleindent flicker" style="animation-delay: 2.5s">i5-4590T  // 16GB DDR3 // Proxmox</p>
-                </div>
+            <div class="flicker" style="text-align: center; animation-delay: 5s;">
+                <img src="./images/signalis.svg">
+                <p style="letter-spacing: -1px">THIS SPACE<br>INTENTIONALLY<br>LEFT BLANK.</p>
             </div>
 
-            <div id="badges">
-                <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="badge-checkbox">&lt; back</label>
-
-                <div class="flicker" style="animation-delay: 0.4s">
-                    <h1>friends</h1>
-                    <p class="indent gray">contact me if you'd like to join!</p>
-                </div>
-
-                <div class="badge-grid flicker" style="animation-delay: 0.6s">
-                    <a href="https://twilightsunshine.com"><img title="Twilight Sunshine" src="https://twilightsunshine.com/images/88x31.gif"></a>
-                    <a href="https://alyxia.dev"><img title="alyxia.dev" src="https://alyxia.dev/static/img/88x31/self.png"></a>
-                    <a href="https://witchrose.com"><img title="witch rose" src="https://witchrose.com/88x31.gif"></a>
-                </div>
-
-                <div class="badge-grid flicker" style="animation-delay: 0.8s">
-                    <a href="https://joke.enterprises"><img title="joke.enterprises" src="https://joke.enterprises/badge88_31.png"></a>
-                    <a href="https://lostorstolen.neocities.org"><img title="lostorstolen" src="https://lostorstolen.neocities.org/eye-luh.gif"></a>
-                </div>
-
-                <h3 class="flicker bottom" style="animation-delay: 1s">
-                    <a href=https://webring.birb.cc/prev>&lt;=</a> <a href=https://webring.birb.cc>webring</a> <a href=https://webring.birb.cc/next>=&gt;</a>
-                </h3>
+            <div class="badge-grid flicker bottom" style="animation-delay: 1s">
+                <a href="https://flipperzero.one/"><img title="flip the world!" src="./images/88x31_flipper.gif"></a>
+                <a><img title="trans rights!" src="./images/88x31_transbian.png"></a>
+                <a href="https://miaow.ing"><img title="miaow.ing" src="./images/88x31_miaowing.png"></a>
             </div>
+        </div>
+
+        <div id="projects">
+            <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="projects-checkbox">&lt; back</label>
+
+            <div class="flicker" style="animation-delay: 0.4s">
+                <h1>projects</h1>
+            </div>
+
+            <div class="flicker" style="animation-delay: 0.8s">
+                <h2 class="indent"><a href="projects/floppy">floppy</a></h2>
+                <p class="doubleindent gray">floppy disk jukebox</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 0.9s">
+                <h2 class="indent"><a href="projects/tkl">tkl</a></h2>
+                <p class="doubleindent gray">handmade uk iso tenkeyless</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.01s">
+                <h2 class="indent"><a href="projects/137">137</a></h2>
+                <p class="doubleindent gray">137mhz weather satellite fun</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.1s">
+                <h2 class="indent"><a href="https://webring.birb.cc">webring</a></h2>
+                <p class="doubleindent gray">simple asp.net webring</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.2s">
+                <h2 class="indent"><a href="https://img.birb.cc">img.birb.cc</a></h2>
+                <p class="doubleindent gray">private asp.net filehost</p>
+            </div>
+
+            <div class="indent flicker" style="animation-delay: 1.3s">
+                <a href="https://github.com/hummusbird/typing">typing</a>
+                <a href="https://github.com/hummusbird/w98">w98</a>
+                <a href="https://github.com/hummusbird/matrix">matrix</a>
+                <a href="https://github.com/hummusbird/powercord-crypto">powercord-crypto</a>
+                <a href="https://github.com/hummusbird/joe-biden">joe-biden</a>
+                <a href="https://github.com/hummusbird/website">website</a>
+            </div>
+
+            <h3 class="flicker bottom" style="animation-delay: 1.5s">more available @ <a href=https://github.com/hummusbird>github</a></h3>
+        </div>
+
+        <div id="socials">
+            <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="socials-checkbox">&lt; back</label>
+
+            <div class="flicker" style="animation-delay: 0.4s">
+                <h1>socials</h1>
+            </div>
+
+            <div class="flicker" style="animation-delay: 0.8s">
+                <h2 class="indent"><a href="https://github.com/hummusbird">github</a></h2>
+                <p class="doubleindent gray">software & programming</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 0.9s">
+                <h2 class="indent"><a href="https://youtube.com/@hummusbird">youtube</a></h2>
+                <p class="doubleindent gray">personal projects & tutorials</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.0s">
+                <h2 class="indent"><a href="https://webring.birb.cc">instagram</a></h2>
+                <p class="doubleindent gray">art & photography</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.1s">
+                <h2 class="indent"><a href="https://steamcommunity.com/id/hummusbirb">steam</a></h2>
+                <p class="doubleindent gray">/id/hummusbirb</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.2s">
+                <h2 class="indent"><a href="https://www.discordapp.com/users/375671695240855553">discord</a></h2>
+                <p class="doubleindent gray">@miaowing</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.3s">
+                <h2 class="indent"><a href="https://matrix.to/#/@birb:birb.cc">matrix</a></h2>
+                <p class="doubleindent gray">@birb:birb.cc</p>
+            </div>
+
+            <div class="flicker" style="animation-delay: 1.5s">
+                <h2 class="indent"><a href="mailto:birb@birb.cc">e-mail</a></h2>
+                <p class="doubleindent gray">birb@birb.cc</p>
+            </div>
+        </div>
+
+        <div id="systems">
+            <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="systems-checkbox">&lt; back</label>
+
+            <div class="flicker" style="animation-delay: 0.4s">
+                <h1>systems</h1>
+            </div>
+
+            <div class="flicker">
+                <p class="indent flicker gray" style="animation-delay: 1s">reflektor <span class="systemdetail gray">custom rackmount PC</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 1.1s">R5 7600x  // 32GB DDR5 // GTX 1080</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 1.2s">slate <span class="systemdetail gray">13" surface laptop 3</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 1.3s">i7-1065G7 // 16GB DDR4 // Arch</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 1.4s">abiior <span class="systemdetail gray">dell latitude 5400</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 1.5s">i5-8365U  // 32GB DDR4 // Arch</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 1.6s">carbon <span class="systemdetail gray">dell latitude 7440</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 1.7s">i5-1345U  // 16GB DDR5 // Arch</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 1.8s">pro8 <span class="systemdetail gray">surface pro 8</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 1.9s">i5-1145G7 // 16GB DDR4 // Win 10</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 2s">kolibri <span class="systemdetail gray">surface go 3</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 2.1s">i3-10100Y //  4GB DDR3 // Arch</p>
+                <br>
+                <p class="indent flicker gray" style="animation-delay: 2.4s">cluster <span class="systemdetail gray">4x lenovo m73 tiny</span></p>
+                <p class="doubleindent flicker" style="animation-delay: 2.5s">i5-4590T  // 16GB DDR3 // Proxmox</p>
+            </div>
+        </div>
+
+        <div id="badges">
+            <label class="flicker hideprojects pagelabel" style="animation-delay: 0.2s" for="badge-checkbox">&lt; back</label>
+
+            <div class="flicker" style="animation-delay: 0.4s">
+                <h1>friends</h1>
+                <p class="indent gray">contact me if you'd like to join!</p>
+            </div>
+
+            <div class="badge-grid flicker" style="animation-delay: 0.6s">
+                <a href="https://twilightsunshine.com"><img title="Twilight Sunshine" src="https://twilightsunshine.com/images/88x31.gif"></a>
+                <a href="https://alyxia.dev"><img title="alyxia.dev" src="https://alyxia.dev/static/img/88x31/self.png"></a>
+                <a href="https://witchrose.com"><img title="witch rose" src="https://witchrose.com/88x31.gif"></a>
+            </div>
+
+            <div class="badge-grid flicker" style="animation-delay: 0.8s">
+                <a href="https://joke.enterprises"><img title="joke.enterprises" src="https://joke.enterprises/badge88_31.png"></a>
+                <a href="https://lostorstolen.neocities.org"><img title="lostorstolen" src="https://lostorstolen.neocities.org/eye-luh.gif"></a>
+            </div>
+
+            <h3 class="flicker bottom" style="animation-delay: 1s">
+                <a href=https://webring.birb.cc/prev>&lt;=</a> <a href=https://webring.birb.cc>webring</a> <a href=https://webring.birb.cc/next>=&gt;</a>
+            </h3>
         </div>
     </div>
 </body>
