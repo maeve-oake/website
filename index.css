@@ -60,6 +60,11 @@ body {
     height: 31px;
 }
 
+.imagediv {
+    display: flex;
+    margin: 0 !important;
+}
+
 h1 {
     font-size: 2.6em;
 }
