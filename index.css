@@ -48,7 +48,7 @@ body {
     margin: 0 58px 4px 58px !important;
 }
 
-.badge-grid img {
+.pixel {
     image-rendering: optimizeSpeed;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
@@ -56,6 +56,9 @@ body {
     image-rendering: pixelated;
     image-rendering: optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
+}
+
+.badge-grid img {
     width: 88px;
     height: 31px;
 }
