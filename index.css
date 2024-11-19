@@ -111,6 +111,11 @@ label {
     text-decoration: underline;
 }
 
+.unavailable {
+    color: gray;
+    text-decoration: none;
+}
+
 .hidden {
     display: none;
 }
