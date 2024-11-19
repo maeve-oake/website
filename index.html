@@ -10,14 +10,12 @@
 </head>
 
 <body>
-    <script>setTimeout(function () { document.getElementById('home').classList.remove("hidden") }, 1300);</script>
-
     <input type="checkbox" class="hidden" id="projects-checkbox">
     <input type="checkbox" class="hidden" id="socials-checkbox">
     <input type="checkbox" class="hidden" id="systems-checkbox">
     <input type="checkbox" class="hidden" id="badge-checkbox">
 
-    <div class="spread center box">
+    <div id="main" class="spread center box">
         <div class="hidden" id="home">
             <div class="flicker" style="animation-delay: 0.2s">
                 <h1>miaowing</h1>
@@ -206,4 +204,14 @@
             </h3>
         </div>
     </div>
+
+    <script>
+        setTimeout(function () { document.getElementById('home').classList.remove("hidden") }, 1300);
+
+        if (new URL(document.referrer).origin == new URL(document.URL).origin) {
+            document.getElementById("main").style.animationDuration = "0s"
+            document.getElementById("main").style.animationDelay = "0s"
+            document.getElementById('home').classList.remove("hidden")
+        }
+    </script>
 </body>
