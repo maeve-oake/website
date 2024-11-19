@@ -103,6 +103,7 @@ label {
     position: fixed;
     z-index: 100;
     right: 0;
+    top: 0;
 }
 
 .homelabel {
@@ -113,14 +114,10 @@ label {
 #hidebadges,
 .hidden,
 
-#about,
 #projects,
 #socials,
 #systems,
 #badges,
-
-#about-checkbox:checked~div .showabout,
-#about-checkbox:checked~div #home,
 
 #projects-checkbox:checked~div .showprojects,
 #projects-checkbox:checked~div #home,
@@ -135,9 +132,6 @@ label {
 #badge-checkbox:checked~div #home {
     display: none;
 }
-
-#about-checkbox:checked~div .hideabout,
-#about-checkbox:checked~div #about,
 
 #projects-checkbox:checked~div .hideprojects,
 #projects-checkbox:checked~div #projects,
