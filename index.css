@@ -111,19 +111,8 @@ label {
     text-decoration: underline;
 }
 
-#hidebadges,
-.hidden,
-
-#badges,
-
-#badge-checkbox:checked~div .showbadges,
-#badge-checkbox:checked~div #home {
+.hidden {
     display: none;
-}
-
-#badge-checkbox:checked~div .hidebadges,
-#badge-checkbox:checked~div #badges {
-    display: initial;
 }
 
 .spread {
