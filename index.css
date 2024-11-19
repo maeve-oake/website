@@ -114,19 +114,12 @@ label {
 #hidebadges,
 .hidden,
 
-#systems,
 #badges,
-
-#systems-checkbox:checked~div .showsystems,
-#systems-checkbox:checked~div #home,
 
 #badge-checkbox:checked~div .showbadges,
 #badge-checkbox:checked~div #home {
     display: none;
 }
-
-#systems-checkbox:checked~div .hidesystems,
-#systems-checkbox:checked~div #systems,
 
 #badge-checkbox:checked~div .hidebadges,
 #badge-checkbox:checked~div #badges {
