@@ -114,13 +114,9 @@ label {
 #hidebadges,
 .hidden,
 
-#projects,
 #socials,
 #systems,
 #badges,
-
-#projects-checkbox:checked~div .showprojects,
-#projects-checkbox:checked~div #home,
 
 #socials-checkbox:checked~div .showsocials,
 #socials-checkbox:checked~div #home,
@@ -132,9 +128,6 @@ label {
 #badge-checkbox:checked~div #home {
     display: none;
 }
-
-#projects-checkbox:checked~div .hideprojects,
-#projects-checkbox:checked~div #projects,
 
 #socials-checkbox:checked~div .hidesocials,
 #socials-checkbox:checked~div #socials,
