@@ -62,6 +62,10 @@ img {
     display: flex;
 }
 
+.spacebetween {
+    justify-content: space-between;
+}
+
 .flip {
     transform: scaleX(-1);
 }
