@@ -64,6 +64,8 @@ body {
 }
 
 .imagediv {
+    gap: 25px;
+    justify-content: space-evenly;
     display: flex;
     margin: 0 !important;
 }
