@@ -103,11 +103,12 @@ h3 {
 h1,
 p,
 h2 {
-    margin: 25px 25px 0 25px !important;
+    margin: 25px 10px 10px 25px !important;
 }
 
 p {
     margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .codeblock {
